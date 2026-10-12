@@ -1,0 +1,134 @@
+{
+  "explore": {
+    "id": "71ee6910-6eae-42a2-ae75-6778a716cfd2",
+    "src": "/bands/71ee6910.webp",
+    "srcSmall": "/bands/71ee6910-900.webp",
+    "focus": "50% 55%",
+    "title": "Kongsfjorden, Svalbard",
+    "title_hi": "कॉन्ग्सफ्जॉर्ड, स्वालबार्ड",
+    "author": "Superchilum",
+    "license": "CC BY-SA 3.0",
+    "alt": "Panoramic view of Kongsfjorden in Svalbard with fjord, mountains, and glaciers."
+  },
+  "expeditions": {
+    "id": "13fe6f00-4f00-496d-82cc-6ca23c8af731",
+    "src": "/bands/13fe6f00.webp",
+    "srcSmall": "/bands/13fe6f00-900.webp",
+    "focus": "38% 40%",
+    "title": "Member of the 7th Indian Antarctic Expedition at Dakshin Gangotri, 26 January 1988",
+    "title_hi": "26 जनवरी 1988 को दक्षिण गंगोत्री पर 7वें भारतीय अंटार्कटिक अभियान के सदस्य",
+    "author": "MOHAMMED SAMI UZ ZAMAN",
+    "license": "CC BY-SA 4.0",
+    "alt": "An expedition member in orange polar gear standing on snow near Dakshin Gangotri station"
+  },
+  "events": {
+    "id": "c31b256f-41b1-45c0-84d2-2d3650ba68ea",
+    "src": "/bands/c31b256f.webp",
+    "srcSmall": "/bands/c31b256f-900.webp",
+    "focus": "50% 45%",
+    "title": "Glacier front in Kongsfjorden, Svalbard",
+    "title_hi": "कॉन्ग्सजॉर्डन, स्वालबार्ड में हिमनद का सिरा",
+    "author": "Superchilum",
+    "license": "CC BY-SA 4.0",
+    "alt": "A massive blue glacier front meeting the sea in Svalbard with snowy mountains in the background."
+  },
+  "gallery": {
+    "id": "65cdeab9-7c6c-4ba7-a374-2f653cb44d1f",
+    "src": "/bands/65cdeab9.webp",
+    "srcSmall": "/bands/65cdeab9-900.webp",
+    "focus": "50% 35%",
+    "title": "Glacier near Gemur, Lahaul",
+    "title_hi": "गेमुर के पास ग्लेशियर, लाहौल",
+    "author": "Timothy A. Gonsalves",
+    "license": "CC BY-SA 4.0",
+    "alt": "Snow-covered glacier nestled between rugged mountain peaks under a blue sky."
+  },
+  "videos": {
+    "id": "23a1d384-44d3-4534-834f-322b26ccb9e8",
+    "src": "/bands/23a1d384.webp",
+    "srcSmall": "/bands/23a1d384-900.webp",
+    "focus": "50% 50%",
+    "title": "Maitri and Novolazarevskaya stations from space (Copernicus Sentinel-2, 1 March 2021)",
+    "title_hi": "अंतरिक्ष से मैत्री और नोवोलाज़ारेव्स्काया केंद्र (कॉपरनिकस सेंटिनल-2, 1 मार्च 2021)",
+    "author": "European Space Agency",
+    "license": "ESA Standard Licence (attribution): contains modified Copernicus Sentinel data (2021), processed by ",
+    "alt": "Satellite view of Schirmacher Oasis in Antarctica showing Maitri station and surrounding terrain."
+  },
+  "learn": {
+    "id": "b07843e6-d7fc-4f2b-8275-e06e0c6d7bff",
+    "src": "/bands/b07843e6.webp",
+    "srcSmall": "/bands/b07843e6-900.webp",
+    "focus": "50% 55%",
+    "title": "Chandra Taal lake, Himachal Pradesh",
+    "title_hi": "चंद्र ताल झील, हिमाचल प्रदेश",
+    "author": "Adarsh Patel",
+    "license": "CC BY-SA 4.0",
+    "alt": "A large blue lake surrounded by barren Himalayan mountains under a partly cloudy sky."
+  },
+  "news": {
+    "id": "2ff73608-41ae-4d21-8058-9a2c59e7d9ba",
+    "src": "/bands/2ff73608.webp",
+    "srcSmall": "/bands/2ff73608-900.webp",
+    "focus": "50% 50%",
+    "title": "Dakshin Gangotri under construction, January 1984",
+    "title_hi": "निर्माणाधीन दक्षिण गंगोत्री, जनवरी 1984",
+    "author": "Pavan Nair",
+    "license": "CC BY-SA 4.0",
+    "alt": "Wooden research station buildings under construction in a snowy landscape with workers on the roofs."
+  },
+  "station-maitri": {
+    "id": "86d5306e-3e1f-4e24-9853-f5ee6d2ebf4b",
+    "src": "/bands/86d5306e.webp",
+    "srcSmall": "/bands/86d5306e-900.webp",
+    "focus": "50% 40%",
+    "title": "Maitri, Indian station in Antarctica",
+    "title_hi": "मैत्री, अंटार्कटिका में भारतीय स्टेशन",
+    "author": "Prakash khatarkar",
+    "license": "CC BY-SA 4.0",
+    "alt": "Maitri research station building in Antarctica with snow and raised pipelines in the foreground."
+  },
+  "station-bharati": {
+    "id": "9b67a551-33a8-4af3-af07-8328f5694186",
+    "src": "/bands/9b67a551.webp",
+    "srcSmall": "/bands/9b67a551-900.webp",
+    "focus": "50% 60%",
+    "title": "Bharati permanent Antarctic research station",
+    "title_hi": "भारती स्थायी अंटार्कटिक अनुसंधान स्टेशन",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "alt": "Bharati research station building on rocky ground with radar domes in the background."
+  },
+  "station-himadri": {
+    "id": "17a9f165-93dc-4083-9273-7604db53c0d2",
+    "src": "/bands/17a9f165.webp",
+    "srcSmall": "/bands/17a9f165-900.webp",
+    "focus": "50% 50%",
+    "title": "Ny-Ålesund research village, Svalbard",
+    "title_hi": "न्यू-ऑलेसुंड अनुसंधान गांव, स्वालबार्ड",
+    "author": "Jerzy Strzelecki",
+    "license": "CC BY-SA 3.0",
+    "alt": "Snow-covered landscape with a satellite dish and research buildings near water in Ny-Ålesund."
+  },
+  "station-himansh": {
+    "id": "1bba3595-f8e2-4df4-bca4-1b7a2fa1acad",
+    "src": "/bands/1bba3595.webp",
+    "srcSmall": "/bands/1bba3595-900.webp",
+    "focus": "50% 50%",
+    "title": "Chandra river below Koksar, Lahaul",
+    "title_hi": "कोक्सर के नीचे चंद्र नदी, लाहौल",
+    "author": "Timothy A. Gonsalves",
+    "license": "CC BY-SA 4.0",
+    "alt": "Chandra river flowing through a mountainous valley with steep rocky slopes under a cloudy sky."
+  },
+  "station-dakshin-gangotri": {
+    "id": "c5d92473-db0a-48f0-ac85-08d39a136a54",
+    "src": "/bands/c5d92473.webp",
+    "srcSmall": "/bands/c5d92473-900.webp",
+    "focus": "50% 50%",
+    "title": "Dakshin Gangotri, Antarctica",
+    "title_hi": "दक्षिण गंगोत्री, अंटार्कटिका",
+    "author": "प्रकाश खातरकर, मध्यप्रदेश",
+    "license": "CC BY-SA 4.0",
+    "alt": "Aerial view of Dakshin Gangotri station buildings with tricolour roofs surrounded by snow."
+  }
+}

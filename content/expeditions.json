@@ -1,0 +1,612 @@
+{
+  "about": "Verified facts for expedition pages (task A4). Every fact has a source. Routes are schematic (start, stops, end joined by straight lines), never a GPS track. An expedition is shown publicly only if it is listed here. scripts/import-expeditions.ts writes these into the expeditions table and links the listed assets.",
+  "checked_on": "2026-09-26",
+  "hidden_codes": {
+    "ARCTIC-2024": "Seed demo record with an approximate date and no source. Hidden until a source is found.",
+    "HIM-2024": "Seed demo record with an approximate date and no source. Hidden until a source is found."
+  },
+  "expeditions": [
+    {
+      "code": "ISEA-01",
+      "name": "First Indian Expedition to Antarctica",
+      "name_hi": "अंटार्कटिका के लिए पहला भारतीय अभियान",
+      "region": "antarctic",
+      "start_date": "1981-12-06",
+      "end_date": "1982-02-21",
+      "leader": "Dr S. Z. Qasim",
+      "station": null,
+      "summary": "India's first expedition to Antarctica: a 21-member team led by Dr S. Z. Qasim sailed from Mormugao, Goa, on 6 December 1981 aboard the chartered ship MV Polar Circle, landed in Antarctica on 9 January 1982, and returned to Mormugao on 21 February 1982 after a voyage of about 21,000 km.",
+      "summary_hi": "अंटार्कटिका के लिए भारत का पहला अभियान: डॉ. एस. ज़ेड. क़ासिम के नेतृत्व में 21 सदस्यों का दल 6 दिसंबर 1981 को किराये के जहाज़ एमवी पोलर सर्कल से मोरमुगाओ, गोवा से रवाना हुआ, 9 जनवरी 1982 को अंटार्कटिका पहुँचा और लगभग 21,000 किमी की यात्रा के बाद 21 फ़रवरी 1982 को मोरमुगाओ लौटा।",
+      "sources": [
+        {
+          "name": "PTI report, Deccan Herald, 1 Dec 2023",
+          "url": "https://www.deccanherald.com/india/indias-first-antarctica-mission-was-top-secret-felt-like-being-in-james-bond-film-recall-members-2792699"
+        },
+        {
+          "name": "Scientific Report of the First Indian Expedition to Antarctica (Dept. of Ocean Development, 1983), NCPOR DSpace",
+          "url": "http://14.139.119.23:8080/dspace/handle/123456789/126"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "1981-12-06",
+          "text": "Sails from Mormugao, Goa, aboard MV Polar Circle",
+          "text_hi": "एमवी पोलर सर्कल से मोरमुगाओ, गोवा से रवाना",
+          "source": 1
+        },
+        {
+          "date": "1982-01-09",
+          "text": "Lands in Antarctica",
+          "text_hi": "अंटार्कटिका पहुँचा",
+          "source": 0
+        },
+        {
+          "date": "1982-02-21",
+          "text": "Returns to Mormugao after about 21,000 km",
+          "text_hi": "लगभग 21,000 किमी के बाद मोरमुगाओ लौटा",
+          "source": 1
+        }
+      ],
+      "route": [
+        {
+          "lat": 15.39,
+          "lng": 73.83,
+          "label": "Goa",
+          "label_hi": "गोवा"
+        },
+        {
+          "lat": -70.0,
+          "lng": 12.0,
+          "label": "Antarctica (Dronning Maud Land)",
+          "label_hi": "अंटार्कटिका (ड्रोनिंग मॉड लैंड)"
+        }
+      ],
+      "assets": [
+        "74ffaeff"
+      ]
+    },
+    {
+      "code": "ISEA-02",
+      "name": "Second Indian Expedition to Antarctica",
+      "name_hi": "अंटार्कटिका के लिए दूसरा भारतीय अभियान",
+      "region": "antarctic",
+      "start_date": "1982-12-01",
+      "date_precision": "season",
+      "end_date": "1983-03-21",
+      "leader": "V. K. Raina",
+      "station": null,
+      "summary": "The second expedition (Antarctic summer 1982-83) was led by V. K. Raina of the Geological Survey of India and coordinated by the Department of Ocean Development. The team spent 56 days on the continent, weathered a severe blizzard on 19-20 January 1983 with winds up to 72 knots, and returned to Goa on 21 March 1983 after a sea journey of about 24,000 km.",
+      "summary_hi": "दूसरा अभियान (अंटार्कटिक ग्रीष्म 1982-83) भारतीय भूवैज्ञानिक सर्वेक्षण के वी. के. रैना के नेतृत्व में और महासागर विकास विभाग के समन्वय से हुआ। दल ने महाद्वीप पर 56 दिन बिताए, 19-20 जनवरी 1983 को 72 नॉट तक की हवाओं वाले भीषण बर्फ़ीले तूफ़ान का सामना किया, और लगभग 24,000 किमी की समुद्री यात्रा के बाद 21 मार्च 1983 को गोवा लौटा।",
+      "sources": [
+        {
+          "name": "Scientific Report of the Second Indian Expedition to Antarctica (Dept. of Ocean Development, 1985), NCPOR DSpace",
+          "url": "http://14.139.119.23:8080/dspace/handle/123456789/161"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "1983-01-19",
+          "text": "Severe blizzard (19-20 January), winds up to 72 knots",
+          "text_hi": "भीषण बर्फ़ीला तूफ़ान (19-20 जनवरी), 72 नॉट तक की हवाएँ",
+          "source": 0
+        },
+        {
+          "date": "1983-03-21",
+          "text": "Returns to Goa after about 24,000 km at sea",
+          "text_hi": "लगभग 24,000 किमी की समुद्री यात्रा के बाद गोवा लौटा",
+          "source": 0
+        }
+      ],
+      "route": [
+        {
+          "lat": 15.39,
+          "lng": 73.83,
+          "label": "Goa",
+          "label_hi": "गोवा"
+        },
+        {
+          "lat": -70.0,
+          "lng": 12.0,
+          "label": "Antarctica (Dronning Maud Land)",
+          "label_hi": "अंटार्कटिका (ड्रोनिंग मॉड लैंड)"
+        }
+      ],
+      "assets": [
+        "20d27cab"
+      ]
+    },
+    {
+      "code": "ISEA-03",
+      "name": "Third Indian Expedition to Antarctica",
+      "name_hi": "अंटार्कटिका के लिए तीसरा भारतीय अभियान",
+      "region": "antarctic",
+      "start_date": "1983-12-03",
+      "end_date": "1984-03-29",
+      "leader": "Dr Harsh K. Gupta",
+      "station": "Dakshin Gangotri",
+      "summary": "The third expedition, led by Dr Harsh K. Gupta, sailed from Goa on 3 December 1983 and built Dakshin Gangotri, India's first permanent station in Antarctica, on the Dronning Maud Land ice shelf. From 1 March 1984 a team of twelve stayed behind for India's first Antarctic wintering; the summer team reached Goa on 29 March 1984 and the wintering team returned on 25 March 1985.",
+      "summary_hi": "डॉ. हर्ष के. गुप्ता के नेतृत्व में तीसरा अभियान 3 दिसंबर 1983 को गोवा से रवाना हुआ और ड्रोनिंग मॉड लैंड की हिमशेल्फ़ पर अंटार्कटिका में भारत का पहला स्थायी केंद्र, दक्षिण गंगोत्री, बनाया। 1 मार्च 1984 से बारह सदस्यों का दल भारत के पहले अंटार्कटिक शीतकालीन प्रवास के लिए वहीं रुका; ग्रीष्म दल 29 मार्च 1984 को गोवा पहुँचा और शीतकालीन दल 25 मार्च 1985 को लौटा।",
+      "sources": [
+        {
+          "name": "Scientific Report of the Third Indian Expedition to Antarctica (Dept. of Ocean Development, 1986), NCPOR DSpace",
+          "url": "http://14.139.119.23:8080/dspace/handle/123456789/202"
+        },
+        {
+          "name": "Wikipedia, Dakshin Gangotri",
+          "url": "https://en.wikipedia.org/wiki/Dakshin_Gangotri"
+        },
+        {
+          "name": "NCPOR, Antarctica Day 2023 and 40 years of Dakshin Gangotri (YouTube)",
+          "url": "https://www.youtube.com/watch?v=te1jnAm-rS4"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "1983-12-03",
+          "text": "Sails from Goa",
+          "text_hi": "गोवा से रवाना",
+          "source": 0
+        },
+        {
+          "date": "1984-01-26",
+          "text": "Dakshin Gangotri station commissioned",
+          "text_hi": "दक्षिण गंगोत्री केंद्र शुरू",
+          "source": 1
+        },
+        {
+          "date": "1984-03-01",
+          "text": "India's first Antarctic wintering begins (12 members)",
+          "text_hi": "भारत का पहला अंटार्कटिक शीतकालीन प्रवास शुरू (12 सदस्य)",
+          "source": 0
+        },
+        {
+          "date": "1984-03-29",
+          "text": "Summer team reaches Goa",
+          "text_hi": "ग्रीष्म दल गोवा पहुँचा",
+          "source": 0
+        },
+        {
+          "date": "1985-03-25",
+          "text": "Wintering team returns",
+          "text_hi": "शीतकालीन दल लौटा",
+          "source": 0
+        },
+        {
+          "date": "2023-12-01",
+          "text": "NCPOR marks 40 years of Dakshin Gangotri on Antarctica Day",
+          "text_hi": "अंटार्कटिका दिवस पर एनसीपीओआर ने दक्षिण गंगोत्री के 40 वर्ष मनाए",
+          "source": 2
+        }
+      ],
+      "route": [
+        {
+          "lat": 15.39,
+          "lng": 73.83,
+          "label": "Goa",
+          "label_hi": "गोवा"
+        },
+        {
+          "lat": -70.083,
+          "lng": 12.0,
+          "label": "Dakshin Gangotri",
+          "label_hi": "दक्षिण गंगोत्री"
+        }
+      ],
+      "assets": [
+        "bf348448",
+        "ce384735",
+        "ab7fb151",
+        "e7c6eff1",
+        "f97f533d",
+        "2ff73608",
+        "1520a9ba"
+      ]
+    },
+    {
+      "code": "SPE-2010",
+      "name": "First Indian Scientific Expedition to the South Pole",
+      "name_hi": "दक्षिणी ध्रुव के लिए पहला भारतीय वैज्ञानिक अभियान",
+      "region": "antarctic",
+      "start_date": "2010-11-01",
+      "date_precision": "month",
+      "end_date": "2010-12-01",
+      "leader": null,
+      "station": "Maitri",
+      "summary": "India's first scientific expedition to the South Pole set out from Maitri in 2010 to mark thirty years of Indian presence in Antarctica. An eight-member team in customised Toyota Hilux vehicles (Arctic Trucks) covered 2,300 km in 9 days, collecting snow and ice samples on the way, and reached the South Pole on 21 November 2010. The team was back at Maitri on 1 December 2010.",
+      "summary_hi": "अंटार्कटिका में भारत की उपस्थिति के तीस वर्ष पूरे होने पर 2010 में मैत्री से दक्षिणी ध्रुव के लिए पहला भारतीय वैज्ञानिक अभियान निकला। आठ सदस्यों के दल ने विशेष रूप से तैयार टोयोटा हाइलक्स वाहनों (आर्कटिक ट्रक्स) से 9 दिनों में 2,300 किमी की दूरी तय की, रास्ते में बर्फ़ और हिम के नमूने लिए, और 21 नवंबर 2010 को दक्षिणी ध्रुव पहुँचा। दल 1 दिसंबर 2010 को मैत्री लौट आया।",
+      "sources": [
+        {
+          "name": "NCPOR, Significant Achievements (Antarctica)",
+          "url": "https://ncpor.res.in/antarcticas/display/369-significant-achievements-"
+        },
+        {
+          "name": "NCPOR official YouTube channel",
+          "url": "https://www.youtube.com/watch?v=pE1K3YQ43j8"
+        },
+        {
+          "name": "India's First Scientific Expedition to South Pole: A Report (30th ISEA scientific report), NCPOR DSpace",
+          "url": "http://14.139.119.23:8080/dspace/handle/123456789/1260"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2010-11-21",
+          "text": "Reaches the South Pole after 2,300 km in 9 days",
+          "text_hi": "9 दिनों में 2,300 किमी चलकर दक्षिणी ध्रुव पहुँचा",
+          "source": 0
+        },
+        {
+          "date": "2010-12-01",
+          "text": "Returns to Maitri",
+          "text_hi": "मैत्री लौटा",
+          "source": 0
+        }
+      ],
+      "route": [
+        {
+          "lat": -70.767,
+          "lng": 11.733,
+          "label": "Maitri",
+          "label_hi": "मैत्री"
+        },
+        {
+          "lat": -90.0,
+          "lng": 11.733,
+          "label": "South Pole",
+          "label_hi": "दक्षिणी ध्रुव"
+        }
+      ],
+      "assets": [
+        "4f1fc03f",
+        "5bd63baf",
+        "bad0b05c",
+        "1b92a94c"
+      ]
+    },
+    {
+      "code": "ISEA-42",
+      "name": "42nd Indian Scientific Expedition to Antarctica",
+      "name_hi": "अंटार्कटिका के लिए 42वाँ भारतीय वैज्ञानिक अभियान",
+      "region": "antarctic",
+      "start_date": "2022-10-22",
+      "end_date": null,
+      "leader": null,
+      "station": "Bharati",
+      "summary": "The 42nd Indian Scientific Expedition to Antarctica was formally launched from Goa on 22 October 2022. The first batch, with the leader for Bharati station, travelled to Antarctica via Cape Town, and a second group of members reported at NCPOR in November 2022.",
+      "summary_hi": "अंटार्कटिका के लिए 42वाँ भारतीय वैज्ञानिक अभियान 22 अक्टूबर 2022 को गोवा से औपचारिक रूप से शुरू हुआ। पहला दल, भारती केंद्र के प्रमुख के साथ, केप टाउन होते हुए अंटार्कटिका गया, और सदस्यों का दूसरा दल नवंबर 2022 में एनसीपीओआर पहुँचा।",
+      "sources": [
+        {
+          "name": "NCPOR, Expedition Updates",
+          "url": "https://ncpor.res.in/pages/view/247-expedition-updates"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2022-10-22",
+          "text": "Formally launched from Goa",
+          "text_hi": "गोवा से औपचारिक शुरुआत",
+          "source": 0
+        },
+        {
+          "date": "2022-11-05",
+          "text": "Members report at NCPOR in two batches (5 and 22 November)",
+          "text_hi": "सदस्य दो दलों में एनसीपीओआर पहुँचे (5 और 22 नवंबर)",
+          "source": 0
+        }
+      ],
+      "route": [
+        {
+          "lat": 15.39,
+          "lng": 73.83,
+          "label": "Goa",
+          "label_hi": "गोवा"
+        },
+        {
+          "lat": -33.92,
+          "lng": 18.42,
+          "label": "Cape Town",
+          "label_hi": "केप टाउन"
+        },
+        {
+          "lat": -69.408,
+          "lng": 76.193,
+          "label": "Bharati",
+          "label_hi": "भारती"
+        }
+      ],
+      "assets": [
+        "abcb8299"
+      ]
+    },
+    {
+      "code": "ARCTIC-WINTER-2023",
+      "name": "India's first winter scientific expedition to the Arctic",
+      "name_hi": "आर्कटिक के लिए भारत का पहला शीतकालीन वैज्ञानिक अभियान",
+      "region": "arctic",
+      "start_date": "2023-12-18",
+      "end_date": null,
+      "leader": null,
+      "station": "Himadri",
+      "summary": "On 18 December 2023 the Union Minister of Earth Sciences flagged off India's first winter scientific expedition to the Arctic, bound for Himadri at Ny-Ålesund, Svalbard. Himadri, run since 2008, had mostly hosted scientists in summer; winter expeditions allow observations during the polar night.",
+      "summary_hi": "18 दिसंबर 2023 को केंद्रीय पृथ्वी विज्ञान मंत्री ने आर्कटिक के लिए भारत के पहले शीतकालीन वैज्ञानिक अभियान को हरी झंडी दिखाई, जो स्वालबार्ड के नी-ओलेसुंड में हिमाद्रि केंद्र के लिए रवाना हुआ। 2008 से चल रहे हिमाद्रि में अब तक अधिकतर गर्मियों में वैज्ञानिक रहते थे; शीतकालीन अभियानों से ध्रुवीय रात के दौरान भी अवलोकन संभव होते हैं।",
+      "sources": [
+        {
+          "name": "PIB, Ministry of Earth Sciences, 18 Dec 2023",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987724"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2023-12-18",
+          "text": "Flagged off in New Delhi",
+          "text_hi": "नई दिल्ली से हरी झंडी",
+          "source": 0
+        }
+      ],
+      "route": [
+        {
+          "lat": 28.61,
+          "lng": 77.21,
+          "label": "New Delhi",
+          "label_hi": "नई दिल्ली"
+        },
+        {
+          "lat": 78.925,
+          "lng": 11.93,
+          "label": "Himadri, Ny-Ålesund",
+          "label_hi": "हिमाद्रि, नी-ओलेसुंड"
+        }
+      ],
+      "assets": [
+        "7e0d3c75"
+      ]
+    },
+    {
+      "code": "ISEA-43",
+      "name": "43rd Indian Scientific Expedition to Antarctica",
+      "name_hi": "अंटार्कटिका के लिए 43वाँ भारतीय वैज्ञानिक अभियान",
+      "region": "antarctic",
+      "start_date": "2023-11-20",
+      "date_precision": "first_record",
+      "end_date": null,
+      "leader": null,
+      "station": "Bharati",
+      "summary": "For the 43rd expedition, cargo was loaded at Mormugao, Goa, on 20–24 November 2023 and at Cape Town on 15–22 December. The chartered vessel MV Vasiliy Golovnin left Cape Town on 23 December 2023 with 21 members from India, one from Bangladesh and two from Mauritius, supported by two helicopters, and entered Antarctic waters on 3 January 2024.",
+      "summary_hi": "43वें अभियान के लिए सामान 20–24 नवंबर 2023 को मोरमुगाओ, गोवा में और 15–22 दिसंबर को केप टाउन में लादा गया। किराये का जहाज़ एमवी वसीली गोलोवनिन 23 दिसंबर 2023 को केप टाउन से रवाना हुआ, जिसमें भारत के 21, बांग्लादेश के एक और मॉरीशस के दो सदस्य थे और दो हेलीकॉप्टरों का सहयोग था। जहाज़ 3 जनवरी 2024 को अंटार्कटिक जल में पहुँचा।",
+      "sources": [
+        {
+          "name": "PIB Mumbai, 6 Jan 2024",
+          "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1993769"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2023-11-20",
+          "text": "Cargo loading at Mormugao, Goa (20–24 Nov)",
+          "text_hi": "मोरमुगाओ, गोवा में सामान लादा गया (20–24 नवंबर)",
+          "source": 0
+        },
+        {
+          "date": "2023-12-23",
+          "text": "MV Vasiliy Golovnin leaves Cape Town",
+          "text_hi": "एमवी वसीली गोलोवनिन केप टाउन से रवाना",
+          "source": 0
+        },
+        {
+          "date": "2024-01-03",
+          "text": "Enters Antarctic waters",
+          "text_hi": "अंटार्कटिक जल में प्रवेश",
+          "source": 0
+        }
+      ],
+      "route": [
+        {
+          "lat": 15.41,
+          "lng": 73.8,
+          "label": "Mormugao, Goa",
+          "label_hi": "मोरमुगाओ, गोवा"
+        },
+        {
+          "lat": -33.92,
+          "lng": 18.42,
+          "label": "Cape Town",
+          "label_hi": "केप टाउन"
+        },
+        {
+          "lat": -69.408,
+          "lng": 76.193,
+          "label": "Bharati",
+          "label_hi": "भारती"
+        }
+      ],
+      "assets": [
+        "f28e05a7"
+      ]
+    },
+    {
+      "code": "ISEA-44",
+      "name": "44th Indian Scientific Expedition to Antarctica",
+      "name_hi": "अंटार्कटिका के लिए 44वाँ भारतीय वैज्ञानिक अभियान",
+      "region": "antarctic",
+      "start_date": "2024-11-01",
+      "date_precision": "season",
+      "end_date": null,
+      "leader": null,
+      "station": null,
+      "summary": "The 44th expedition (2024–25 season) took up the theme 'Climate Change and its signatures in Antarctica'. NCPOR's call for proposals also invited projects in Geological Exploration of Amery Ice Shelf (GeoEAIS), a research area started in the 41st expedition.",
+      "summary_hi": "44वें अभियान (2024–25) का विषय था 'जलवायु परिवर्तन और अंटार्कटिका में उसके चिह्न'। एनसीपीओआर के प्रस्ताव-आमंत्रण में अमेरी हिमशेल्फ़ के भूवैज्ञानिक अन्वेषण (GeoEAIS) की परियोजनाएँ भी माँगी गईं, जो 41वें अभियान में शुरू हुआ शोध क्षेत्र है।",
+      "sources": [
+        {
+          "name": "NCPOR news, 2 Jan 2024",
+          "url": "https://ncpor.res.in/news/view/726"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2024-01-02",
+          "text": "Call for research proposals opens (closed 25 February 2024)",
+          "text_hi": "शोध प्रस्तावों के लिए आमंत्रण (अंतिम तिथि 25 फ़रवरी 2024)",
+          "source": 0
+        }
+      ],
+      "route": [
+        {
+          "lat": 15.39,
+          "lng": 73.83,
+          "label": "Goa",
+          "label_hi": "गोवा"
+        },
+        {
+          "lat": -33.92,
+          "lng": 18.42,
+          "label": "Cape Town",
+          "label_hi": "केप टाउन"
+        },
+        {
+          "lat": -70.767,
+          "lng": 11.733,
+          "label": "Maitri",
+          "label_hi": "मैत्री"
+        },
+        {
+          "lat": -69.408,
+          "lng": 76.193,
+          "label": "Bharati",
+          "label_hi": "भारती"
+        }
+      ],
+      "assets": [
+        "ad78fa1f",
+        "cf1a3665",
+        "1ca2c7b2"
+      ]
+    },
+    {
+      "code": "ISEA-45",
+      "name": "45th Indian Scientific Expedition to Antarctica",
+      "name_hi": "अंटार्कटिका के लिए 45वाँ भारतीय वैज्ञानिक अभियान",
+      "region": "antarctic",
+      "start_date": "2025-10-31",
+      "end_date": null,
+      "leader": null,
+      "station": "Maitri",
+      "summary": "The first team of the 45th expedition left Mumbai on 31 October 2025, landed at the Novo airstrip, and reached Maitri station on 4 November 2025, starting India's 2025–26 Antarctic research season.",
+      "summary_hi": "45वें अभियान का पहला दल 31 अक्टूबर 2025 को मुंबई से रवाना हुआ, नोवो हवाई पट्टी पर उतरा और 4 नवंबर 2025 को मैत्री केंद्र पहुँचा। इसी के साथ भारत का 2025–26 का अंटार्कटिक शोध सत्र शुरू हुआ।",
+      "sources": [
+        {
+          "name": "NCPOR news, 19 Nov 2025",
+          "url": "https://ncpor.res.in/news/view/929"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2025-10-31",
+          "text": "First team leaves Mumbai",
+          "text_hi": "पहला दल मुंबई से रवाना",
+          "source": 0
+        },
+        {
+          "date": "2025-11-04",
+          "text": "Team reaches Maitri via the Novo airstrip",
+          "text_hi": "दल नोवो हवाई पट्टी होते हुए मैत्री पहुँचा",
+          "source": 0
+        }
+      ],
+      "route": [
+        {
+          "lat": 19.08,
+          "lng": 72.88,
+          "label": "Mumbai",
+          "label_hi": "मुंबई"
+        },
+        {
+          "lat": -70.767,
+          "lng": 11.733,
+          "label": "Maitri (via Novo airstrip)",
+          "label_hi": "मैत्री (नोवो हवाई पट्टी होते हुए)"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "code": "ARCTIC-17",
+      "name": "17th Indian Arctic Expedition (2026–27)",
+      "name_hi": "17वाँ भारतीय आर्कटिक अभियान (2026–27)",
+      "region": "arctic",
+      "start_date": "2026-09-09",
+      "date_precision": "first_record",
+      "end_date": null,
+      "leader": null,
+      "station": "Himadri",
+      "summary": "The 17th Indian Arctic Expedition (2026–27) is under way at Himadri, India's Arctic research station at Ny-Ålesund, Svalbard. On 9 September 2026 its members took the Swachh Sagar, Surakshit Sagar pledge at the station.",
+      "summary_hi": "17वाँ भारतीय आर्कटिक अभियान (2026–27) स्वालबार्ड के नी-ओलेसुंड में भारत के आर्कटिक अनुसंधान केंद्र हिमाद्रि में चल रहा है। 9 सितंबर 2026 को इसके सदस्यों ने केंद्र पर स्वच्छ सागर, सुरक्षित सागर की शपथ ली।",
+      "sources": [
+        {
+          "name": "NCPOR news",
+          "url": "https://ncpor.res.in/news/view/1049"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2026-09-09",
+          "text": "Members take the Swachh Sagar, Surakshit Sagar pledge at Himadri",
+          "text_hi": "सदस्यों ने हिमाद्रि पर स्वच्छ सागर, सुरक्षित सागर की शपथ ली",
+          "source": 0
+        }
+      ],
+      "route": [
+        {
+          "lat": 15.39,
+          "lng": 73.83,
+          "label": "Goa",
+          "label_hi": "गोवा"
+        },
+        {
+          "lat": 78.925,
+          "lng": 11.93,
+          "label": "Himadri, Ny-Ålesund",
+          "label_hi": "हिमाद्रि, नी-ओलेसुंड"
+        }
+      ],
+      "assets": [
+        "10d61465"
+      ]
+    },
+    {
+      "code": "HIM-SAMUDRA-TAPU-2026",
+      "name": "Samudra Tapu glacier field work (2026)",
+      "name_hi": "समुद्र टापू हिमनद क्षेत्रीय कार्य (2026)",
+      "region": "himalaya",
+      "start_date": "2026-09-25",
+      "date_precision": "reported",
+      "end_date": null,
+      "leader": null,
+      "station": null,
+      "summary": "An NCPOR team completed its second field task at Samudra Tapu glacier in the Chandra basin, Himalaya, studying the glacier and its proglacial lake. The team set up a new HydroMat monitoring site at the lake outlet and used sub-bottom profiling and surface-sediment sampling to study sediment build-up.",
+      "summary_hi": "एनसीपीओआर के दल ने हिमालय की चंद्रा घाटी में समुद्र टापू हिमनद पर अपना दूसरा क्षेत्रीय कार्य पूरा किया, जिसमें हिमनद और उसकी हिमनदीय झील का अध्ययन हुआ। दल ने झील के निकास पर एक नया हाइड्रोमैट निगरानी स्थल बनाया और तलछट के जमाव को समझने के लिए सब-बॉटम प्रोफ़ाइलिंग व सतही तलछट के नमूने लिए।",
+      "sources": [
+        {
+          "name": "NCPOR news, 25 Sep 2026",
+          "url": "https://ncpor.res.in/news/view/1056"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2026-09-25",
+          "text": "NCPOR reports the second field task completed",
+          "text_hi": "एनसीपीओआर ने दूसरा क्षेत्रीय कार्य पूरा होने की सूचना दी",
+          "source": 0
+        }
+      ],
+      "route": [
+        {
+          "lat": 32.5,
+          "lng": 77.55,
+          "label": "Samudra Tapu glacier (approx.)",
+          "label_hi": "समुद्र टापू हिमनद (अनुमानित)"
+        }
+      ],
+      "assets": []
+    }
+  ]
+}

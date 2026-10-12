@@ -1,0 +1,437 @@
+{
+  "note": "Real Ask Dhruv answers to the sample questions, made by npm run save-answers through the same code path as the live page. The site serves these instantly and labels them as saved.",
+  "answers": [
+    {
+      "question": "How many people went on the 44th Antarctic expedition?",
+      "locale": "en",
+      "answer": "A total of 111 personnel—consisting of 54 scientists and 57 support staff—participated in the 44th Indian Scientific Expedition to Antarctica [1]. They were deployed in six batches between October 2024 and February 2025 [1].",
+      "citations": [
+        {
+          "n": 1,
+          "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+          "title": "NCPOR Annual Report 2024-25 · p. 28",
+          "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb?page=28"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:42:51.718Z"
+    },
+    {
+      "question": "How many people went on the 44th Antarctic expedition?",
+      "locale": "hi",
+      "answer": "44वीं भारतीय वैज्ञानिक अंटार्कटिक एक्सपेडिशन (ISEA-44) में कुल 111 कर्मियों को शामिल किया गया था, जिनमें 54 वैज्ञानिक और 57 सहायता स्टाफ (सपोर्ट स्टाफ) शामिल थे [1]।",
+      "citations": [
+        {
+          "n": 1,
+          "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+          "title": "NCPOR Annual Report 2024-25 · p. 28",
+          "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb?page=28"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:43:15.855Z"
+    },
+    {
+      "question": "44वें अंटार्कटिक अभियान में कितने लोग गए थे?",
+      "locale": "en",
+      "answer": "During the 44th Indian Scientific Expedition to Antarctica (ISEA), a total of 111 personnel were deployed in six batches between October 2024 and February 2025 [3]. This team consisted of 54 scientists and 57 support staff [3].",
+      "citations": [
+        {
+          "n": 3,
+          "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+          "title": "NCPOR Annual Report 2024-25 · p. 28",
+          "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb?page=28"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:43:39.376Z"
+    },
+    {
+      "question": "44वें अंटार्कटिक अभियान में कितने लोग गए थे?",
+      "locale": "hi",
+      "answer": "44वें भारतीय अंटार्कटिक अभियान (44th ISEA) के दौरान कुल 111 कर्मियों (54 वैज्ञानिकों और 57 सहायता कर्मचारियों) को अक्टूबर 2024 से फरवरी 2025 के बीच छह बैचों में अंटार्कटिका भेजा गया था [3]।",
+      "citations": [
+        {
+          "n": 3,
+          "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+          "title": "NCPOR Annual Report 2024-25 · p. 28",
+          "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb?page=28"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:44:03.465Z"
+    },
+    {
+      "question": "What was Dakshin Gangotri?",
+      "locale": "en",
+      "answer": "Dakshin Gangotri was India's first permanent scientific research station in Antarctica [3][6]. Established during the Third Indian Expedition to Antarctica (1983-84) and commissioned on January 26, 1984, the station was built by the Corps of Engineers of the Indian Army in a record two months [3][6]. Located on the Princess Astrid Coast ice shelf, it featured a double-storeyed, two-block structure with living and laboratory facilities, powered by generators and central heating [3]. \n\nOn March 1, 1984, the first Indian wintering team of twelve members began operations there [3]. Although it successfully withstood severe initial blizzards, the station was eventually buried by ice and decommissioned, with India's research operations shifting to Maitri [6].",
+      "citations": [
+        {
+          "n": 3,
+          "asset_id": "f97f533d-7865-42de-b653-e7b443e76cbb",
+          "title": "Dakshin Gangotri: The Indian Permanent Station in Antarctica · p. 3",
+          "href": "/asset/f97f533d-7865-42de-b653-e7b443e76cbb?page=3"
+        },
+        {
+          "n": 6,
+          "asset_id": null,
+          "title": "DHRUV station directory",
+          "href": "/explore"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:44:27.859Z"
+    },
+    {
+      "question": "What was Dakshin Gangotri?",
+      "locale": "hi",
+      "answer": "दक्षिण गंगोत्री भारत का पहला वैज्ञानिक अनुसंधान स्टेशन था, जिसे अंटार्कटिका में स्थापित किया गया था [1][3]। इसे तीसरे भारतीय वैज्ञानिक अभियान के दौरान 26 जनवरी 1984 को कमीशन किया गया था [3][7]। इस स्टेशन को भारतीय सेना के कोर ऑफ इंजीनियर्स द्वारा राजकुमारी आस्ट्रिड तट के बर्फ शेल्फ पर रिकॉर्ड दो महीनों में बनाया गया था [3]। यह एक दो मंजिला, दो-ब्लॉक संरचना थी जिसमें रहने और प्रयोगशाला की सुविधाएं थीं [3]। बाद में यह बर्फ में दब गया और इसे बंद कर दिया गया, जिसके बाद भारत का अनुसंधान मैत्रि स्टेशन पर स्थानांतरित हो गया [6]।",
+      "citations": [
+        {
+          "n": 1,
+          "asset_id": "083be0f5-9433-4b88-a77a-738d24fcf4aa",
+          "title": "Aerial view of Dakshin Gangotri",
+          "href": "/asset/083be0f5-9433-4b88-a77a-738d24fcf4aa"
+        },
+        {
+          "n": 3,
+          "asset_id": "f97f533d-7865-42de-b653-e7b443e76cbb",
+          "title": "Dakshin Gangotri: The Indian Permanent Station in Antarctica · p. 3",
+          "href": "/asset/f97f533d-7865-42de-b653-e7b443e76cbb?page=3"
+        },
+        {
+          "n": 6,
+          "asset_id": null,
+          "title": "DHRUV station directory",
+          "href": "/explore"
+        },
+        {
+          "n": 7,
+          "asset_id": null,
+          "title": "DHRUV expedition timelines",
+          "href": "/expeditions"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:44:51.540Z"
+    },
+    {
+      "question": "दक्षिण गंगोत्री क्या था?",
+      "locale": "en",
+      "answer": "Dakshin Gangotri was India's first scientific research station in Antarctica [3][6]. Established during the Third Indian Expedition to Antarctica (1983–84) and commissioned on January 26, 1984, the station was located on the Princess Astrid Coast ice shelf [2][6]. It was constructed by the Corps of Engineers of the Indian Army as a double-storeyed, two-block structure built over a raft foundation [2]. \n\nDakshin Gangotri provided essential living and laboratory facilities, powered by generators, central heating, and a snow melt plant [2]. On March 1, 1984, India's first Antarctic wintering team of twelve members commenced operations there [2]. Over time, the station was buried by ice and eventually decommissioned, after which India's Antarctic research operations shifted to Maitri [6].",
+      "citations": [
+        {
+          "n": 2,
+          "asset_id": "f97f533d-7865-42de-b653-e7b443e76cbb",
+          "title": "Dakshin Gangotri: The Indian Permanent Station in Antarctica · p. 3",
+          "href": "/asset/f97f533d-7865-42de-b653-e7b443e76cbb?page=3"
+        },
+        {
+          "n": 3,
+          "asset_id": "ce384735-df38-476d-b989-c7bbd651884d",
+          "title": "Dakshin Gangotri station",
+          "href": "/asset/ce384735-df38-476d-b989-c7bbd651884d"
+        },
+        {
+          "n": 6,
+          "asset_id": null,
+          "title": "DHRUV station directory",
+          "href": "/explore"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:45:15.580Z"
+    },
+    {
+      "question": "दक्षिण गंगोत्री क्या था?",
+      "locale": "hi",
+      "answer": "दक्षिण गंगोत्री भारत का पहला अंटार्कटिक अनुसंधान स्टेशन था, जिसे तीसरे भारतीय वैज्ञानिक अभियान के दौरान 26 जनवरी 1984 को स्थापित किया गया था [2][6][7]। इसे राजकुमारी अस्ट्रिड तट पर बर्फ की शेल्फ पर बनाया गया था और इसे भारतीय सेना के इंजीनियरिंग कोर द्वारा रिकॉर्ड दो महीनों में तैयार किया गया था [2]। यह एक डबल-मंजिला, दो-ब्लोक संरचना थी जो प्रयोगशाला और रहने की सुविधा प्रदान करती थी [2]। बाद में यह बर्फ में दब गया और इसे डीकमीशन (बंद) कर दिया गया, जिसके बाद भारत का अनुसंधान कार्य 'मैत्री' स्टेशन पर स्थानांतरित हो गया [6]।",
+      "citations": [
+        {
+          "n": 2,
+          "asset_id": "f97f533d-7865-42de-b653-e7b443e76cbb",
+          "title": "Dakshin Gangotri: The Indian Permanent Station in Antarctica · p. 3",
+          "href": "/asset/f97f533d-7865-42de-b653-e7b443e76cbb?page=3"
+        },
+        {
+          "n": 6,
+          "asset_id": null,
+          "title": "DHRUV station directory",
+          "href": "/explore"
+        },
+        {
+          "n": 7,
+          "asset_id": null,
+          "title": "DHRUV expedition timelines",
+          "href": "/expeditions"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:45:40.227Z"
+    },
+    {
+      "question": "What happened at Himansh station in winter for the first time?",
+      "locale": "en",
+      "answer": "For the first time, a successful pilot wintering initiative was launched at the Himansh research station, taking place from November 2024 to April 2025 with a team of three personnel [3].",
+      "citations": [
+        {
+          "n": 3,
+          "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+          "title": "NCPOR Annual Report 2024-25 · p. 45",
+          "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb?page=45"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:46:03.544Z"
+    },
+    {
+      "question": "What happened at Himansh station in winter for the first time?",
+      "locale": "hi",
+      "answer": "हिमांश स्टेशन पर नवंबर 2024 से अप्रैल 2025 के बीच पहली बार एक सफल पायलट विंटरिंग (सर्दी के मौसम में रहने की पहल) की शुरुआत की गई थी, जिसमें तीन कर्मियों ने हिस्सा लिया [3]।",
+      "citations": [
+        {
+          "n": 3,
+          "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+          "title": "NCPOR Annual Report 2024-25 · p. 45",
+          "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb?page=45"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:46:27.601Z"
+    },
+    {
+      "question": "हिमांश स्टेशन पर पहली बार सर्दियों में क्या किया गया?",
+      "locale": "en",
+      "answer": "For the first time, a successful pilot wintering initiative was launched at the Himansh station from November 2024 to April 2025 with three personnel [3]. This pilot wintering campaign was initiated to ensure year-round scientific observation at the high-altitude Himalayan research station [3].",
+      "citations": [
+        {
+          "n": 3,
+          "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+          "title": "NCPOR Annual Report 2024-25 · p. 45",
+          "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb?page=45"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:46:51.623Z"
+    },
+    {
+      "question": "हिमांश स्टेशन पर पहली बार सर्दियों में क्या किया गया?",
+      "locale": "hi",
+      "answer": "हिमांश स्टेशन पर पहली बार नवंबर 2024 से अप्रैल 2025 तक तीन कर्मियों के साथ एक सफल पायलट विंटरिंग (सर्दियों में रहने की) पहल शुरू की गई थी, जिसका उद्देश्य साल भर निरंतर वैज्ञानिक अवलोकन सुनिश्चित करना था [3]।",
+      "citations": [
+        {
+          "n": 3,
+          "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+          "title": "NCPOR Annual Report 2024-25 · p. 45",
+          "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb?page=45"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:47:16.012Z"
+    },
+    {
+      "question": "What does the Antarctic sea ice dataset measure?",
+      "locale": "en",
+      "answer": "The Antarctic daily sea ice extent dataset provides daily measurements of total Southern Ocean sea ice extent in millions of square kilometres [1]. Derived from satellite passive microwave records through the National Snow and Ice Data Center (NSIDC) Sea Ice Index version 4, the dataset covers the period from October 1978 to the present [1]. It includes daily values for the year, month, day, total sea ice extent, missing data indicators, and source data file paths [1]. Researchers and meteorologists use this long-term record to monitor polar climate change, study ocean-atmosphere interactions, and assess seasonal sea ice variations in the Southern Hemisphere [1].",
+      "citations": [
+        {
+          "n": 1,
+          "asset_id": "b75ecb1c-123c-4f00-8c90-872d08b26141",
+          "title": "Antarctic daily sea ice extent, 1978-present (NSIDC Sea Ice Index v4)",
+          "href": "/asset/b75ecb1c-123c-4f00-8c90-872d08b26141"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:47:40.288Z"
+    },
+    {
+      "question": "What does the Antarctic sea ice dataset measure?",
+      "locale": "hi",
+      "answer": "अंटार्कटिक दैनिक समुद्री बर्फ विस्तार (Antarctic daily sea ice extent) डेटासेट उपग्रह निष्क्रिय माइक्रोवेव अभिलेखों के माध्यम से 1978 से वर्तमान तक दक्षिणी महासागर में अंटार्कटिक समुद्री बर्फ के विस्तार का दैनिक माप प्रदान करता है [1]। यह डेटासेट वर्ष, महीने, दिन, कुल समुद्री बर्फ विस्तार, लापता डेटा संकेतक और स्रोत डेटा फ़ाइल पथों के दैनिक मूल्य दर्ज करता है [1]। शोधकर्ता और मौसम विज्ञानी ध्रुवीय जलवायु परिवर्तन की निगरानी करने, मौसमी समुद्री बर्फ विविधताओं का आकलन करने और दक्षिणी गोलार्ध में महासागर-वातावरण अंतःक्रियाओं का अध्ययन करने के लिए इस रिकॉर्ड का उपयोग करते हैं [1]।",
+      "citations": [
+        {
+          "n": 1,
+          "asset_id": "b75ecb1c-123c-4f00-8c90-872d08b26141",
+          "title": "Antarctic daily sea ice extent, 1978-present (NSIDC Sea Ice Index v4)",
+          "href": "/asset/b75ecb1c-123c-4f00-8c90-872d08b26141"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:48:04.553Z"
+    },
+    {
+      "question": "अंटार्कटिक समुद्री बर्फ डेटासेट क्या मापता है?",
+      "locale": "en",
+      "answer": "The Antarctic daily sea ice extent dataset provides daily measurements of Antarctic sea ice extent in millions of square kilometres [1]. Derived from satellite passive microwave records through the National Snow and Ice Data Center (NSIDC) Sea Ice Index version 4, this continuous long-term record covers the Southern Ocean from October 1978 to the present [1]. It includes values for the observation year, month, day, total sea ice extent, missing data indicators, and source data file paths, which help researchers and meteorologists monitor polar climate change, assess seasonal sea ice variations, and study ocean-atmosphere interactions in the Southern Hemisphere [1].",
+      "citations": [
+        {
+          "n": 1,
+          "asset_id": "b75ecb1c-123c-4f00-8c90-872d08b26141",
+          "title": "Antarctic daily sea ice extent, 1978-present (NSIDC Sea Ice Index v4)",
+          "href": "/asset/b75ecb1c-123c-4f00-8c90-872d08b26141"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:48:28.921Z"
+    },
+    {
+      "question": "अंटार्कटिक समुद्री बर्फ डेटासेट क्या मापता है?",
+      "locale": "hi",
+      "answer": "अंटार्कटिक समुद्री बर्फ डेटासेट (Antarctic daily sea ice extent dataset) 1978 से वर्तमान तक दक्षिणी महासागर में अंटार्कटिक समुद्री बर्फ के दैनिक विस्तार को मिलियन वर्ग किलोमीटर में मापता है [1]। इस डेटासेट में वर्ष, महीने, दिन, कुल समुद्री बर्फ का विस्तार (total sea ice extent), और लापता डेटा संकेतक (missing data indicators) जैसी दैनिक वैल्यू शामिल होती हैं [1]। शोधकर्ता और मौसम विज्ञानी ध्रुवीय जलवायु परिवर्तन की निगरानी, मौसमी समुद्री बर्फ भिन्नताओं का आकलन और दक्षिणी गोलार्द्ध में महासागर-वायुमंडल अंतःक्रियाओं का अध्ययन करने के लिए इस निरंतर दीर्घकालिक रिकॉर्ड का उपयोग करते हैं [1]।",
+      "citations": [
+        {
+          "n": 1,
+          "asset_id": "b75ecb1c-123c-4f00-8c90-872d08b26141",
+          "title": "Antarctic daily sea ice extent, 1978-present (NSIDC Sea Ice Index v4)",
+          "href": "/asset/b75ecb1c-123c-4f00-8c90-872d08b26141"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:48:53.193Z"
+    },
+    {
+      "question": "What did India study at the Nivlisen Ice Shelf?",
+      "locale": "en",
+      "answer": "At the Nivlisen Ice Shelf (located in the cDML region of East Antarctica), researchers conduct integrated glaciological studies to assess the impact of climate change [1]. This includes examining geophysical-glacio-hydro dynamics and appraising supra-glacial lakes and their effects on glacial dynamics [1][2]. Additionally, scientists have carried out joint Indo-Norway sub-ice investigations using hovercraft-mounted radar to map bathymetry and ice thickness, covering hundreds of kilometers [2].",
+      "citations": [
+        {
+          "n": 1,
+          "asset_id": "abcb8299-3b39-476b-9c66-f34948146bb7",
+          "title": "NCPOR Annual Report 2022-23 · p. 22",
+          "href": "/asset/abcb8299-3b39-476b-9c66-f34948146bb7?page=22"
+        },
+        {
+          "n": 2,
+          "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+          "title": "NCPOR Annual Report 2024-25 · p. 14",
+          "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb?page=14"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:49:17.157Z"
+    },
+    {
+      "question": "What did India study at the Nivlisen Ice Shelf?",
+      "locale": "hi",
+      "answer": "भारत ने नीवलिसन आइस शेल्फ (Nivlisen Ice Shelf) पर जलवायु परिवर्तन के प्रभाव का आकलन करने के लिए एकीकृत हिमनद विज्ञान (glaciological), भूभौतिकीय (geophysical) और जल गतिशीलता (hydro-dynamics) का अध्ययन किया है [1]。 इसके तहत, शेल्फ पर स्थित सुप्रै-ग्लेशियल झीलों (supra-glacial lakes) का मूल्यांकन किया गया और हिमनद गतिशीलता पर उनके प्रभाव की जाँच की गई [1]。 इसके अतिरिक्त, एक संयुक्त भारत-नॉर्वेजियन उप-हिम जांच (sub-ice investigation) के तहत होवरक्राफ्ट-माउंटेड रडार का उपयोग करके वहां की बाथमीट्री (bathymetry) और बर्फ की मोटाई का सफलतापूर्वक मानचित्रण किया गया है [2]。",
+      "citations": [
+        {
+          "n": 1,
+          "asset_id": "abcb8299-3b39-476b-9c66-f34948146bb7",
+          "title": "NCPOR Annual Report 2022-23 · p. 22",
+          "href": "/asset/abcb8299-3b39-476b-9c66-f34948146bb7?page=22"
+        },
+        {
+          "n": 2,
+          "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+          "title": "NCPOR Annual Report 2024-25 · p. 14",
+          "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb?page=14"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:49:41.421Z"
+    },
+    {
+      "question": "भारत ने निविलिसेन आइस शेल्फ पर क्या अध्ययन किया?",
+      "locale": "en",
+      "answer": "Indian scientists have conducted sub-ice investigations beneath the Nivlisen Ice Shelf (Nivilisen Ice Shelf) in Antarctica [1][2]. Using a hovercraft-mounted radar and a Griffon TD 2000 hovercraft, researchers successfully mapped the bathymetry and ice thickness of the ice shelf [1]. Additionally, integrated glaciological, hydro-dynamical, and geophysical studies have been carried out over the Nivlisen Drainage Basin and shelf to assess the impacts of climate change and supra-glacial lakes on glacial dynamics [2].",
+      "citations": [
+        {
+          "n": 1,
+          "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+          "title": "NCPOR Annual Report 2024-25 · p. 14",
+          "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb?page=14"
+        },
+        {
+          "n": 2,
+          "asset_id": "abcb8299-3b39-476b-9c66-f34948146bb7",
+          "title": "NCPOR Annual Report 2022-23 · p. 22",
+          "href": "/asset/abcb8299-3b39-476b-9c66-f34948146bb7?page=22"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:50:14.388Z"
+    },
+    {
+      "question": "भारत ने निविलिसेन आइस शेल्फ पर क्या अध्ययन किया?",
+      "locale": "hi",
+      "answer": "भारत ने निविलिसेन (Nivlisen) आइस शेल्फ के नीचे एसईएनएस (SENS) परियोजना के तहत ग्रिफ़ॉन टीडी 2000 होवरक्राफ्ट की मदद से सब-आइस (sub-ice) जांच की [1]। इस अभियान के दौरान होवरक्राफ्ट-माउंटेड रडार का उपयोग करके सफलतापूर्वक बाथिमेट्री (समुद्र तल की स्थलाकृति) और बर्फ की मोटाई का मानचित्रण किया गया [1]। इसके अतिरिक्त, इस क्षेत्र में जलवायु परिवर्तन के प्रभावों का आकलन करने के लिए एकीकृत ग्लेशियोलॉजिकल और भूभौतिकीय अध्ययन भी किए गए हैं [2]।",
+      "citations": [
+        {
+          "n": 1,
+          "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+          "title": "NCPOR Annual Report 2024-25 · p. 14",
+          "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb?page=14"
+        },
+        {
+          "n": 2,
+          "asset_id": "abcb8299-3b39-476b-9c66-f34948146bb7",
+          "title": "NCPOR Annual Report 2022-23 · p. 22",
+          "href": "/asset/abcb8299-3b39-476b-9c66-f34948146bb7?page=22"
+        }
+      ],
+      "engine": {
+        "model": "gemini-3.5-flash-lite",
+        "open": false
+      },
+      "at": "2026-09-27T16:50:38.775Z"
+    }
+  ]
+}

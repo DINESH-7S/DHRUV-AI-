@@ -1,0 +1,58 @@
+{
+  "about": "A1 content pack: datasets. All five are NCPOR's own observations, published openly by its National Polar Data Center (NPDC) at data.ncpor.res.in. The NPDC data policy makes data free and open after its lock-in period (2 to 5 years), provided the owner is acknowledged; all of these are older than that. `npm run fetch-datasets` downloads them into seed-content/datasets/ and adds them to seed-content/manifest.json.",
+  "checked_on": "2026-09-26",
+  "data_policy_url": "https://npdc.ncpor.res.in/npdc/mainmenu_home.action?ref_id=REF14329&main_menu_id=55&main_menu_name=Data+Policy+%26amp%3B+Guidelines",
+  "license": "NCPOR/NPDC data policy: free and open access, with acknowledgement of NCPOR as the data owner",
+  "datasets": [
+    {
+      "file": "datasets/ncpor-maitri-dakshin-gangotri-surface-met-1985-2010.csv",
+      "download": { "url": "https://data.ncpor.res.in/toview/surface_data", "format": "html-table" },
+      "title": "Surface weather at Dakshin Gangotri and Maitri, Antarctica, 1985-2010",
+      "region": "antarctic",
+      "station": "Maitri",
+      "year": 2010,
+      "source_url": "https://data.ncpor.res.in/ant_temp_pres",
+      "description": "Surface meteorological observations from India's Antarctic stations Dakshin Gangotri (1985-1989) and Maitri (1990-2010), published by NCPOR's National Polar Data Center. Observations every three hours of air temperature, air pressure, wind speed, wind direction and, for 1985 only, relative humidity. Missing values are recorded as -999. Converted from NCPOR's online data table to CSV without changing any value. The online table lists every observation twice, so the exact duplicates were removed, and the misspelt 'Temperature' column heading was corrected."
+    },
+    {
+      "file": "datasets/ncpor-himansh-aws.csv",
+      "download": { "url": "https://data.ncpor.res.in/static/observation_data/himansh.csv", "format": "csv" },
+      "title": "Himansh automatic weather station, Chandra basin, Himalaya",
+      "region": "himalaya",
+      "station": "Himansh",
+      "year": 2018,
+      "source_url": "https://data.ncpor.res.in/dataset/Himansh/",
+      "description": "Daily records from the automatic weather station at Himansh, NCPOR's high-altitude research station in the Chandra basin, Lahaul-Spiti, Himachal Pradesh, published by NCPOR's National Polar Data Center. Includes air temperature, relative humidity, short- and long-wave radiation, wind, snow-surface and precipitation measurements. Column names are NCPOR's."
+    },
+    {
+      "file": "datasets/ncpor-sutri-dhaka-aws.csv",
+      "download": { "url": "https://data.ncpor.res.in/static/observation_data/sutridhaka.csv", "format": "csv" },
+      "title": "Sutri Dhaka automatic weather station, Chandra basin, Himalaya",
+      "region": "himalaya",
+      "station": "Himansh",
+      "year": 2017,
+      "source_url": "https://data.ncpor.res.in/dataset/SutriDhaka/",
+      "description": "Daily records from NCPOR's automatic weather station at Sutri Dhaka in the Chandra basin, Lahaul-Spiti, where the Himansh research station stands, published by NCPOR's National Polar Data Center. Includes air temperature, relative humidity, short- and long-wave radiation, wind, snow-surface and precipitation measurements. Column names are NCPOR's."
+    },
+    {
+      "file": "datasets/ncpor-bara-shigri-aws.csv",
+      "download": { "url": "https://data.ncpor.res.in/static/observation_data/barashigri.csv", "format": "csv" },
+      "title": "Bara Shigri glacier automatic weather station, Himalaya",
+      "region": "himalaya",
+      "station": null,
+      "year": 2019,
+      "source_url": "https://data.ncpor.res.in/dataset/BaraShigri/",
+      "description": "Daily records from NCPOR's automatic weather station at Bara Shigri glacier in the Chandra basin, Himachal Pradesh, published by NCPOR's National Polar Data Center. Includes air temperature, relative humidity, short- and long-wave radiation, wind, snow-surface and precipitation measurements. Column names are NCPOR's."
+    },
+    {
+      "file": "datasets/ncpor-gepang-aws.csv",
+      "download": { "url": "https://data.ncpor.res.in/static/observation_data/gepang.csv", "format": "csv" },
+      "title": "Gepang automatic weather station, Chandra basin, Himalaya",
+      "region": "himalaya",
+      "station": null,
+      "year": 2018,
+      "source_url": "https://data.ncpor.res.in/dataset/Gepang/",
+      "description": "Daily records from NCPOR's automatic weather station at Gepang in the Chandra basin, Himachal Pradesh, published by NCPOR's National Polar Data Center. Includes air temperature, relative humidity, short- and long-wave radiation, wind, snow-surface and precipitation measurements. Column names are NCPOR's."
+    }
+  ]
+}

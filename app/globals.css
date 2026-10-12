@@ -1,0 +1,771 @@
+@import "tailwindcss";
+
+/* Design language: DESIGN.md (SpaceX-inspired structure, DHRUV's own tokens).
+   Fonts come from next/font in app/layout.tsx (Rajdhani / IBM Plex Sans Devanagari / IBM Plex Mono). */
+@theme inline {
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-heading), "Arial Narrow", Arial, sans-serif;
+  --font-mono: var(--font-code), ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Tight, engineered corners site-wide (DESIGN.md "rounded"); pills stay rounded-full. */
+@theme {
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 4px;
+  --radius-xl: 6px;
+  --radius-2xl: 6px;
+  --radius-3xl: 8px;
+}
+
+@layer base {
+  :root {
+    /* One accent (glacier), one neutral family (navy-tinted near-blacks). */
+    --ink: #03080f;          /* deepest bands: hero, footer */
+    --navy: #060e18;         /* page canvas */
+    --navy-raised: #0c1826;  /* the rare raised surface */
+    --line: #1f2e3f;         /* 1px hairlines */
+    --snow: #f2f6fa;
+    --mist: #a7b8c8;         /* secondary text */
+    --glacier: #5bbfe6;      /* the accent: links, focus, live dot, active nav */
+    --glacier-deep: #2d8fbd;
+
+    --background: 213 64% 12%;
+    --foreground: 205 50% 96%;
+    --primary: 197 72% 63%;
+    --primary-foreground: 213 64% 10%;
+    --border: 210 40% 25%;
+    --ring: 197 72% 63%;
+    --radius: 0.75rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--navy);
+    color: var(--snow);
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    letter-spacing: 0.005em;
+    text-wrap: balance;
+  }
+
+  /* Page and section display headings: uppercase, wide tracking, tight leading (DESIGN.md). */
+  h1,
+  h2.display,
+  .display {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    line-height: 1;
+  }
+
+  /* Devanagari has no capitals and splits when tracked. */
+  :lang(hi) h1,
+  :lang(hi) .display,
+  h1:lang(hi),
+  .display:lang(hi) {
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.2;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Visible keyboard focus everywhere (accessibility requirement). */
+  :where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+    outline: 2px solid var(--glacier);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  /* Skip link: first Tab stop on every public page (WCAG 2.4.1 / GIGW). */
+  .skip-link {
+    position: fixed;
+    top: 0.75rem;
+    left: 0.75rem;
+    z-index: 60;
+    padding: 0.625rem 1rem;
+    border-radius: 9999px;
+    background: var(--glacier);
+    color: #06121e;
+    font-weight: 600;
+    transform: translateY(-200%);
+  }
+  .skip-link:focus-visible {
+    transform: translateY(0);
+  }
+
+  /* Physical press feedback on every control. */
+  :where(button, a[class*="rounded"]) {
+    transition-property: color, background-color, border-color, box-shadow, transform, opacity;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  :where(button:not(:disabled), a[class*="rounded"]):active {
+    transform: translateY(1px) scale(0.99);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* Subtle film grain so large dark surfaces are not sterile. */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 60;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+@layer components {
+  /* No backdrop-filter here: on scrolling content it re-blurs every frame and drops FPS.
+     Blur is reserved for fixed/sticky layers (navbar, overlays): use .glass-overlay. */
+  /* Panels: a barely lifted surface with a hairline (DESIGN.md "bands, not boxes"). */
+  .glass-panel {
+    background: rgba(12, 24, 38, 0.72);
+    border: 1px solid var(--line);
+  }
+
+  .glass-card {
+    background: rgba(12, 24, 38, 0.5);
+    border: 1px solid var(--line);
+    transition: border-color 400ms, background-color 400ms, transform 500ms cubic-bezier(0.32, 0.72, 0, 1);
+  }
+
+  .glass-card:hover {
+    border-color: rgba(91, 191, 230, 0.45);
+    background: rgba(12, 24, 38, 0.8);
+    transform: translateY(-2px);
+  }
+
+  /* Headings used to be gradient-filled everywhere (an "AI template" tell). Now solid; accent is opt-in. */
+  .aurora-gradient-text {
+    color: var(--snow);
+  }
+
+  .accent-text {
+    color: var(--glacier);
+  }
+
+  .aurora-bg-glow {
+    background:
+      radial-gradient(60% 50% at 70% 10%, rgba(91, 191, 230, 0.14) 0%, transparent 70%),
+      radial-gradient(40% 40% at 10% 30%, rgba(45, 143, 189, 0.1) 0%, transparent 70%);
+  }
+
+  .eyebrow {
+    font-family: var(--font-display);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--glacier);
+  }
+
+  /* Letter-spacing and uppercase break Devanagari's connecting headline (shirorekha). */
+  :lang(hi) .eyebrow {
+    letter-spacing: 0;
+    font-size: 0.9rem;
+  }
+
+  /* The one CTA per band: ghost-outlined pill in caps (DESIGN.md). */
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.625rem;
+    min-height: 3rem;
+    padding: 0.875rem 1.625rem;
+    border: 1px solid var(--snow);
+    border-radius: 9999px;
+    font-family: var(--font-display);
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--snow);
+    background: transparent;
+  }
+  .btn-ghost:hover {
+    background: var(--snow);
+    color: var(--ink);
+  }
+  :lang(hi) .btn-ghost {
+    letter-spacing: 0;
+    font-size: 1rem;
+  }
+
+  /* Caps microtext for nav items, credits and labels. */
+  .micro-cap {
+    font-family: var(--font-display);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  :lang(hi) .micro-cap {
+    letter-spacing: 0;
+    font-size: 0.9rem;
+  }
+
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .glass-overlay {
+    background: rgba(3, 8, 15, 0.82);
+    backdrop-filter: blur(18px) saturate(1.2);
+  }
+
+  /* Cursor-following spotlight border + glow. --mx/--my are set by MotionProvider (rAF-throttled). */
+  .spotlight {
+    position: relative;
+    isolation: isolate;
+  }
+  .spotlight::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: radial-gradient(220px circle at var(--mx, 50%) var(--my, 50%), rgba(91, 191, 230, 0.55), transparent 70%);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 300ms cubic-bezier(0.32, 0.72, 0, 1);
+    pointer-events: none;
+    z-index: 1;
+  }
+  .spotlight::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: radial-gradient(320px circle at var(--mx, 50%) var(--my, 50%), rgba(91, 191, 230, 0.08), transparent 70%);
+    opacity: 0;
+    transition: opacity 300ms cubic-bezier(0.32, 0.72, 0, 1);
+    pointer-events: none;
+    z-index: -1;
+  }
+  .spotlight:hover::before,
+  .spotlight:hover::after {
+    opacity: 1;
+  }
+
+  /* Drifting aurora: pre-blurred radial gradients moved with transform only (no filter, no layout). */
+  .aurora {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .aurora::before,
+  .aurora::after {
+    content: "";
+    position: absolute;
+    width: 70vmax;
+    height: 70vmax;
+    border-radius: 50%;
+    will-change: transform;
+  }
+  .aurora::before {
+    top: -40vmax;
+    right: -20vmax;
+    background: radial-gradient(closest-side, rgba(91, 191, 230, 0.2), transparent);
+    animation: aurora-a 22s cubic-bezier(0.45, 0, 0.55, 1) infinite alternate;
+  }
+  .aurora::after {
+    top: -25vmax;
+    left: -30vmax;
+    background: radial-gradient(closest-side, rgba(56, 178, 172, 0.12), transparent);
+    animation: aurora-b 28s cubic-bezier(0.45, 0, 0.55, 1) infinite alternate;
+  }
+
+  /* Typing indicator for Ask Dhruv. */
+  .thinking-dots span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 2px;
+    border-radius: 9999px;
+    background: var(--glacier);
+    animation: thinking 1.2s ease-in-out infinite;
+  }
+  .thinking-dots span:nth-child(2) {
+    animation-delay: 0.15s;
+  }
+  .thinking-dots span:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+}
+
+@keyframes aurora-a {
+  to {
+    transform: translate3d(-18vmax, 14vmax, 0) scale(1.15);
+  }
+}
+@keyframes aurora-b {
+  to {
+    transform: translate3d(20vmax, 8vmax, 0) scale(0.9);
+  }
+}
+@keyframes thinking {
+  0%, 80%, 100% {
+    transform: translateY(0);
+    opacity: 0.35;
+  }
+  40% {
+    transform: translateY(-4px);
+    opacity: 1;
+  }
+}
+
+/*
+ * Scroll reveal (components/motion/Reveal.tsx): a CSS scroll-driven animation, no JavaScript.
+ * Content above the fold is already past its "entry" range at load, so it paints fully visible
+ * in the first frame; items further down fade and lift in as they enter the viewport.
+ */
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(var(--reveal-y, 24px));
+  }
+}
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: reveal-in linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 40%;
+    }
+  }
+}
+
+/* Hero entrance (components/public/home/HeroIntro.tsx): CSS keyframes, staggered by --i. */
+@keyframes rise-in {
+  /* Starts at 0.1, not 0: fully transparent text is not "painted", so LCP would wait for the fade. */
+  from {
+    opacity: 0.1;
+    transform: translateY(36px);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .rise {
+    animation: rise-in 1s cubic-bezier(0.32, 0.72, 0, 1) both;
+    animation-delay: calc(var(--i, 0) * 110ms + 60ms);
+  }
+}
+
+/* Route change fade (app/(public)/template.tsx). Starts at 0.35 so the first paint already shows the page. */
+@keyframes page-in {
+  from {
+    opacity: 0.35;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .page-in {
+    animation: page-in 0.35s cubic-bezier(0.32, 0.72, 0, 1) both;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * DESIGN.md motion and graphics (all transform/opacity/clip-path; reduced motion turns them off)
+ * ------------------------------------------------------------------------- */
+
+@layer components {
+  /* Solid pill for app actions (forms, staff tools); marketing bands use .btn-ghost. */
+  .btn-solid {
+    background: var(--snow);
+    color: var(--ink);
+    border-radius: 9999px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .btn-solid:hover:not(:disabled) {
+    background: #ffffff;
+  }
+  :lang(hi) .btn-solid {
+    letter-spacing: 0;
+  }
+
+  /* Endless ticker (home station band). The track holds two copies of its content. */
+  .marquee {
+    display: flex;
+    width: max-content;
+    animation: marquee 60s linear infinite;
+  }
+  .marquee:hover {
+    animation-play-state: paused;
+  }
+}
+
+/* Page band photo: a slow settle from a slight zoom. */
+@keyframes band-in {
+  from {
+    transform: scale(1.08);
+    opacity: 0.4;
+  }
+}
+/* Graticule: rings and meridians draw in, the grid turns once every four minutes. */
+@keyframes draw-in {
+  from {
+    stroke-dashoffset: 1;
+  }
+}
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes ping-soft {
+  0%,
+  100% {
+    transform: scale(0.6);
+    opacity: 0.9;
+  }
+  60% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+/* Images wipe open from the bottom as they scroll in. */
+@keyframes wipe-in {
+  from {
+    clip-path: inset(18% 0 0 0);
+    transform: translateY(24px) scale(1.04);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .band-img {
+    animation: band-in 1.8s cubic-bezier(0.32, 0.72, 0, 1) both;
+  }
+  .graticule-draw {
+    stroke-dasharray: 1;
+    animation: draw-in 2.2s cubic-bezier(0.32, 0.72, 0, 1) both;
+    animation-delay: calc(var(--i, 0) * 120ms + 200ms);
+  }
+  .graticule-spin {
+    animation: spin-slow 240s linear infinite;
+  }
+  .graticule-ping {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: ping-soft 3.2s cubic-bezier(0.32, 0.72, 0, 1) infinite;
+    animation-delay: calc(var(--i, 0) * 700ms);
+  }
+}
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal-wipe {
+      animation: wipe-in linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 55%;
+    }
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    animation: none;
+  }
+}
+
+@layer components {
+  /* Filter chips (region, type): caps microtext pills; the current one is solid snow. */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-height: 2.25rem;
+    padding: 0.45rem 1rem;
+    border: 1px solid var(--line);
+    border-radius: 9999px;
+    font-family: var(--font-display);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--mist);
+    transition: color 300ms, border-color 300ms, background-color 300ms;
+  }
+  .chip:hover {
+    color: var(--snow);
+    border-color: rgba(242, 246, 250, 0.45);
+  }
+  .chip-active,
+  .chip[aria-current="page"],
+  .chip[aria-pressed="true"] {
+    background: var(--snow);
+    border-color: var(--snow);
+    color: var(--ink);
+  }
+  :lang(hi) .chip {
+    letter-spacing: 0;
+    font-size: 0.9rem;
+  }
+}
+
+@layer components {
+  /* Decorative ghost numerals and wordmarks: drawn from data-text so they are not read or
+     contrast-checked as text. The same information is always present as real text nearby. */
+  .ghost-text::before {
+    content: attr(data-text);
+  }
+}
+
+/* Ask Dhruv answer text (unlayered so it wins over the Markdown component's utilities). */
+.answer-prose p,
+.answer-prose li {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--snow);
+}
+.answer-prose strong {
+  color: #ffffff;
+}
+
+@layer components {
+  /* Inline citation marker in an answer: a small numbered chip that jumps to its source card. */
+  .cite-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.35rem;
+    height: 1.25rem;
+    margin: 0 0.1rem;
+    padding: 0 0.3rem;
+    border-radius: 3px;
+    background: rgba(91, 191, 230, 0.14);
+    color: var(--glacier);
+    font-family: var(--font-code);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-decoration: none;
+    vertical-align: 0.15em;
+    transition: background-color 250ms, color 250ms;
+  }
+  .cite-chip:hover {
+    background: var(--glacier);
+    color: var(--ink);
+  }
+
+  /* Skeleton shimmer (transform-only sweep). */
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+    background: rgba(242, 246, 250, 0.06);
+  }
+  .shimmer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, rgba(242, 246, 250, 0.08), transparent);
+  }
+}
+@keyframes shimmer-sweep {
+  to {
+    transform: translateX(100%);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .shimmer::after {
+    animation: shimmer-sweep 1.4s cubic-bezier(0.32, 0.72, 0, 1) infinite;
+  }
+}
+
+/* Staff pages: the header rises in on arrival (app/admin/template.tsx adds the route fade). */
+@media (prefers-reduced-motion: no-preference) {
+  .admin-head {
+    animation: rise-in 0.9s cubic-bezier(0.32, 0.72, 0, 1) both;
+  }
+}
+
+/* Headline word reveal (components/motion/SplitWords.tsx). */
+.word-mask {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  /* Room for descenders and Devanagari matras. */
+  padding-bottom: 0.12em;
+  margin-bottom: -0.12em;
+}
+.word-rise {
+  display: inline-block;
+}
+@keyframes word-rise {
+  from {
+    transform: translateY(105%);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .word-rise {
+    animation: word-rise 0.95s cubic-bezier(0.32, 0.72, 0, 1) both;
+    animation-delay: calc(var(--w, 0) * 70ms + 120ms);
+  }
+}
+
+/* Hero photo drifts and settles as the page scrolls (scroll-driven, no JavaScript). */
+@keyframes hero-drift {
+  to {
+    transform: translateY(14%) scale(1.06);
+  }
+}
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .hero-drift {
+      animation: hero-drift linear both;
+      animation-timeline: scroll(root);
+      animation-range: 0 100vh;
+    }
+  }
+}
+
+@layer components {
+  /* Globe station markers (components/public/GlobeCanvas.tsx): a pulsing dot, name and live temperature. */
+  .globe-marker {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    transform: translate(-7px, -50%);
+    cursor: pointer;
+    transition: opacity 300ms;
+    background: none;
+    border: 0;
+    padding: 0;
+  }
+  .globe-marker-dot {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 9999px;
+    background: var(--c, var(--glacier));
+    box-shadow: 0 0 0 3px rgba(3, 8, 15, 0.7), 0 0 14px var(--c, var(--glacier));
+  }
+  .globe-marker-body {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    padding: 0.2rem 0.55rem;
+    border: 1px solid rgba(242, 246, 250, 0.16);
+    border-radius: 4px;
+    background: rgba(3, 8, 15, 0.72);
+    white-space: nowrap;
+    transition: border-color 300ms, background-color 300ms;
+  }
+  .globe-marker:hover .globe-marker-body,
+  .globe-marker:focus-visible .globe-marker-body {
+    border-color: var(--glacier);
+    background: rgba(3, 8, 15, 0.9);
+  }
+  .globe-marker-name {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--snow);
+  }
+  .globe-marker-temp {
+    font-family: var(--font-code);
+    font-size: 0.72rem;
+    color: var(--glacier);
+  }
+}
+@keyframes marker-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .globe-marker-dot::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 9999px;
+    background: var(--c, var(--glacier));
+    animation: marker-pulse 2.2s cubic-bezier(0.32, 0.72, 0, 1) infinite;
+  }
+}
+@layer components {
+  .globe-marker-left {
+    flex-direction: row-reverse;
+    transform: translate(calc(-100% + 7px), -50%);
+  }
+}
+
+@layer components {
+  /* A grid with no grid-cols-* utility (phones, before an md:/lg: column rule applies) gets one
+     shrinkable column. Without this, the implicit column grows to its widest unbreakable
+     content and the page scrolls sideways on narrow screens. grid-cols-* utilities override it. */
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Upload once, get everything (/admin/pack): the rail draws down, each output's node pops in,
+   and a soft pulse keeps travelling from the upload to the outputs. */
+.pack-rail {
+  transform-origin: top;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .pack-rail {
+    animation: pack-rail 1.6s cubic-bezier(0.32, 0.72, 0, 1) 0.25s both;
+  }
+  .pack-node {
+    animation: pack-node 0.7s cubic-bezier(0.32, 0.72, 0, 1) both;
+    animation-delay: calc(0.45s + var(--i, 0) * 110ms);
+  }
+  .pack-pulse {
+    animation: pack-pulse 3.2s cubic-bezier(0.45, 0, 0.2, 1) 1.8s infinite;
+  }
+}
+@keyframes pack-rail {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+@keyframes pack-node {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+@keyframes pack-pulse {
+  0% { top: 0; opacity: 0; }
+  15% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { top: calc(100% - 4rem); opacity: 0; }
+}

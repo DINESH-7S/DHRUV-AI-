@@ -1,0 +1,1442 @@
+{
+  "runs": [
+    {
+      "at": "2026-09-26T17:21:45.243Z",
+      "label": "Expedition timelines added",
+      "provider": "gemini",
+      "open": false,
+      "model": "gemini-3.5-flash-lite",
+      "totals": {
+        "questions": 32,
+        "passed": 31,
+        "facts": 26,
+        "factsPassed": 26,
+        "refuse": 6,
+        "refusePassed": 5,
+        "langOk": 32,
+        "medianMs": 3818
+      },
+      "results": [
+        {
+          "id": "en-isea1-sail",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 4283,
+          "answer": "India's first scientific expedition to Antarctica set sail on December 6, 1981, from Mormugao, Goa, aboard the vessel MV Polar Circle [7].",
+          "citations": [
+            {
+              "asset_id": null,
+              "title": "DHRUV expedition timelines",
+              "href": "/expeditions"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-isea1-leader",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3337,
+          "answer": "The First Indian Expedition to Antarctica (ISEA-01), which took place from December 1981 to February 1982, was led by **Dr. S. Z. Qasim** [7].",
+          "citations": [
+            {
+              "asset_id": null,
+              "title": "DHRUV expedition timelines",
+              "href": "/expeditions"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-isea2-leader",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3596,
+          "answer": "The leader of India's Second Expedition to Antarctica was V. K. Raina [1].",
+          "citations": [
+            {
+              "asset_id": "20d27cab-c116-4191-9c8f-d501251b894f",
+              "title": "Scientific Report of the Second Indian Expedition to Antarctica: Introduction",
+              "href": "/asset/20d27cab-c116-4191-9c8f-d501251b894f"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-isea3-leader",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 4056,
+          "answer": "The Third Indian Scientific Expedition to Antarctica was led by Dr. Harsh K. Gupta [1][5].",
+          "citations": [
+            {
+              "asset_id": "e7c6eff1-7cbc-43ac-bf81-22108192f9c3",
+              "title": "Scientific Report of the Third Indian Expedition to Antarctica: Introduction",
+              "href": "/asset/e7c6eff1-7cbc-43ac-bf81-22108192f9c3"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV expedition timelines",
+              "href": "/expeditions"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-southpole-date",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3874,
+          "answer": "Indian scientists first reached the South Pole on **November 21, 2010**, during the historic First Indian Scientific Expedition to the South Pole (Dakshin Dhruv Abhiyan) [1][5]. Led by Rasik Ravindra, the eight-member team started their overland journey from India's Maitri station on November 13, 2010, and travelled over 2,300 kilometres across extreme terrain to reach the Amundsen-Scott South Pole Station [1].",
+          "citations": [
+            {
+              "asset_id": "4f1fc03f-6850-4520-a1b9-10b88d3307f4",
+              "title": "1st South Pole Expedition by Indian Scientists of Indian Antarctic Program · 0:00",
+              "href": "/asset/4f1fc03f-6850-4520-a1b9-10b88d3307f4?t=0"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV expedition timelines",
+              "href": "/expeditions"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-maitri-where",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3545,
+          "answer": "Maitri, India's second permanent Antarctic research station, is located in the ice-free Schirmacher Oasis of Dronning Maud Land, Antarctica [4][6].",
+          "citations": [
+            {
+              "asset_id": "23a1d384-44d3-4534-834f-322b26ccb9e8",
+              "title": "Maitri and Novolazarevskaya stations from space (Copernicus Sentinel-2, 1 March 2021)",
+              "href": "/asset/23a1d384-44d3-4534-834f-322b26ccb9e8"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-bharati",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3990,
+          "answer": "Bharati Station, India's third Antarctic research station, was commissioned in 2012 [1][2]. It is located in the Larsemann Hills on the Prydz Bay coast in Antarctica [2].",
+          "citations": [
+            {
+              "asset_id": "59e198a6-8f19-42a3-9a11-854ebfe951da",
+              "title": "Inauguration of a new Branch Post Office at Bharati Station in Antarctica · 0:05",
+              "href": "/asset/59e198a6-8f19-42a3-9a11-854ebfe951da?t=5"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-himadri-where",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 4320,
+          "answer": "India's Arctic research station, Himadri, is located in the international research village of Ny-Ålesund on the island of Spitsbergen in Svalbard, Norway [3][5][6].",
+          "citations": [
+            {
+              "asset_id": "7257e43d-54b7-4427-943a-5f7c9878d368",
+              "title": "NCPOR | Celebrating 25 years of Excellence · 11:49",
+              "href": "/asset/7257e43d-54b7-4427-943a-5f7c9878d368?t=709"
+            },
+            {
+              "asset_id": "ebf1f6b4-2013-4e82-8373-cc541b1ed46a",
+              "title": "Arctic The Indian Connection",
+              "href": "/asset/ebf1f6b4-2013-4e82-8373-cc541b1ed46a"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-himansh-what",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3834,
+          "answer": "The **Himansh** research station is located at Sutri Dhaka in the Chandra Basin, within the Lahaul-Spiti District of Himachal Pradesh [1][4]. It is situated at an altitude of about 4,000 to 4,080 meters above mean sea level [1][2].",
+          "citations": [
+            {
+              "asset_id": "fe72d54f-1eee-4ab7-922f-eb953a30ebf9",
+              "title": "HIMANSH- NCPOR's High Altitude research station in Himalayas · 0:11",
+              "href": "/asset/fe72d54f-1eee-4ab7-922f-eb953a30ebf9?t=11"
+            },
+            {
+              "asset_id": "cd546810-21bb-497b-9ee7-07d434fabcdd",
+              "title": "National Centre for POlar and Ocean Research (NCPOR)- 2019 · 5:48",
+              "href": "/asset/cd546810-21bb-497b-9ee7-07d434fabcdd?t=348"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-dg-built",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3444,
+          "answer": "Dakshin Gangotri, India's first permanent research station in Antarctica, was set up during the **Third Indian Scientific Expedition to Antarctica** (1983–84) [1][2][3][4].",
+          "citations": [
+            {
+              "asset_id": "f97f533d-7865-42de-b653-e7b443e76cbb",
+              "title": "Dakshin Gangotri: The Indian Permanent Station in Antarctica",
+              "href": "/asset/f97f533d-7865-42de-b653-e7b443e76cbb"
+            },
+            {
+              "asset_id": "e7c6eff1-7cbc-43ac-bf81-22108192f9c3",
+              "title": "Scientific Report of the Third Indian Expedition to Antarctica: Introduction",
+              "href": "/asset/e7c6eff1-7cbc-43ac-bf81-22108192f9c3"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV expedition timelines",
+              "href": "/expeditions"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-seaice-2022",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 4324,
+          "answer": "In February 2022, Antarctic sea ice extent (SIE) dropped to an all-time satellite-era record low of $1.92 \\times 10^6\\text{ km}^2$, which was about 1 million square kilometers below the long-term average [1][2]. This decline was driven by simultaneous negative sea ice anomalies across all sectors of the continent, with the largest contributions coming from the Ross Sea (46.3%) and the Weddell Sea (26.1%) [1][2]. \n\nThis record low was preconditioned during austral spring (October–November 2021) by an exceptionally deep Amundsen Sea Low (ASL), which produced record-strong offshore southerly winds and intense storms [1][2]. These conditions created a large coastal polynya in the Ross Sea, allowing solar radiation to warm the upper ocean mixed layer and further accelerate melt via the ice-albedo feedback [1][2]. Additionally, record-strong westerly winds north of the Weddell Sea led to significant ice export out of that sector [1][2].",
+          "citations": [
+            {
+              "asset_id": "ba9d6e00-6f06-427a-a2a2-54e811a3ae0b",
+              "title": "Record Low Antarctic Sea Ice Cover in February 2022",
+              "href": "/asset/ba9d6e00-6f06-427a-a2a2-54e811a3ae0b"
+            },
+            {
+              "asset_id": "abcb8299-3b39-476b-9c66-f34948146bb7",
+              "title": "NCPOR Annual Report 2022-23",
+              "href": "/asset/abcb8299-3b39-476b-9c66-f34948146bb7"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-enso",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3545,
+          "answer": "Since the industrial era (~1850 CE), the influence of the El Niño-Southern Oscillation (ENSO) on Antarctic temperatures has significantly amplified [1]. Research utilizing ice core oxygen isotope records shows an increasing trend in the variance of East Antarctic temperatures within the ENSO frequency band (2–8 years) [1]. This heightened ENSO activity and its stronger impact on Antarctic surface air temperatures are linked to increasing radiative greenhouse gas (GHG) forcing, which also drives increased activity in the Pacific-South American (PSA) atmospheric circulation pattern [1].",
+          "citations": [
+            {
+              "asset_id": "7fd85e8b-b0b8-4543-b9e4-7f5ac4e481d5",
+              "title": "Increased influence of ENSO on Antarctic temperature since the Industrial Era",
+              "href": "/asset/7fd85e8b-b0b8-4543-b9e4-7f5ac4e481d5"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-atcm46",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3781,
+          "answer": "India hosted the 46th Antarctic Treaty Consultative Meeting (ATCM-46) along with the 26th meeting of the Committee for Environmental Protection (CEP-26) in **Kochi** in **May 2024** [1][2][4]. The international gathering was hosted by the Ministry of Earth Sciences through NCPOR under the theme *Vasudhaiva Kutumbakam* [1].",
+          "citations": [
+            {
+              "asset_id": "b60979b1-41fc-41e4-9230-f964da6f9ffa",
+              "title": "46th Antarctic Treaty Consultative Meeting (ATCM-46) and CEP-26, hosted by India",
+              "href": "/asset/b60979b1-41fc-41e4-9230-f964da6f9ffa"
+            },
+            {
+              "asset_id": "d2f40bea-7815-473b-a5e5-b7a177170c0d",
+              "title": "NCPOR Antarctica Day 2023 Part 1 · 17:00",
+              "href": "/asset/d2f40bea-7815-473b-a5e5-b7a177170c0d?t=1020"
+            },
+            {
+              "asset_id": "ceb4a1a9-c974-4e6d-bae3-e90ba4477953",
+              "title": "2024: A Year to Remember – Highlights of NCPOR's Achievements · 2:24",
+              "href": "/asset/ceb4a1a9-c974-4e6d-bae3-e90ba4477953?t=144"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-arctic-winter",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 96699,
+          "answer": "India's first winter scientific expedition to the Arctic was flagged off on December 18, 2023 [1].",
+          "citations": [
+            {
+              "asset_id": "7e0d3c75-4ee8-4af7-8a53-4687b565d383",
+              "title": "Flag-off of India's first winter scientific expedition to the Arctic",
+              "href": "/asset/7e0d3c75-4ee8-4af7-8a53-4687b565d383"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-sagar-manthan",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 4010,
+          "answer": "India's new ocean research vessel is named **Sagar Manthan** [1]. It was constructed by Garden Reach Shipbuilders & Engineers (GRSE) in Kolkata [1][3].",
+          "citations": [
+            {
+              "asset_id": "d35e0d31-c61c-4637-a0ad-355d41cd9bfe",
+              "title": "Launch of India's new ocean research vessel 'Sagar Manthan'",
+              "href": "/asset/d35e0d31-c61c-4637-a0ad-355d41cd9bfe"
+            },
+            {
+              "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+              "title": "NCPOR Annual Report 2024-25",
+              "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-maitri-data",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3843,
+          "answer": "Yes, there is a dataset available covering surface weather observations at Maitri (and Dakshin Gangotri) [1]. Published by NCPOR's National Polar Data Center, this dataset covers the years from 1985 to 2010 (with Dakshin Gangotri data spanning 1985–1989 and Maitri data covering 1990–2010) [1]. It includes three-hourly measurements of air temperature, air pressure, wind speed, wind direction, and relative humidity (which is available for 1985) [1].",
+          "citations": [
+            {
+              "asset_id": "9b32b82a-7e36-474a-b070-e3418164dd23",
+              "title": "Surface weather at Dakshin Gangotri and Maitri, Antarctica, 1985-2010",
+              "href": "/asset/9b32b82a-7e36-474a-b070-e3418164dd23"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-isea1-sail",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 4122,
+          "answer": "भारत का पहला अंटार्कटिक अभियान 6 दिसंबर 1981 को गोवा के मोरमुगाओ से 'एमवी पोलर सर्कल' (MV Polar Circle) जहाज पर सवार होकर रवाना हुआ था [7]। इस अभियान का नेतृत्व डॉ. एस. जेड. कासिम ने किया था [7]।",
+          "citations": [
+            {
+              "asset_id": null,
+              "title": "DHRUV expedition timelines",
+              "href": "/expeditions"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-southpole-date",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3678,
+          "answer": "भारतीय वैज्ञानिक 21 नवंबर 2010 को पहली बार दक्षिणी ध्रुव पर पहुँचे थे [1]。 यह ऐतिहासिक 'दक्षिण ध्रुव अभियान' (Dakshin Dhruv Abhiyan) रासिक रवींद्र के नेतृत्व में किया गया था, जिसमें आठ सदस्यीय दल ने भारत के मैत्री स्टेशन से अमंडसेन-स्कॉट दक्षिणी ध्रुव स्टेशन तक 2,300 किलोमीटर से अधिक की दूरी तय की थी [1]。",
+          "citations": [
+            {
+              "asset_id": "4f1fc03f-6850-4520-a1b9-10b88d3307f4",
+              "title": "1st South Pole Expedition by Indian Scientists of Indian Antarctic Program · 0:00",
+              "href": "/asset/4f1fc03f-6850-4520-a1b9-10b88d3307f4?t=0"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-maitri-where",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3344,
+          "answer": "मैत्री स्टेशन अंटार्कटिका के ड्रौन मौड लैंड (Queen Maud Land) के बर्फ-मुक्त शिर्माचर ओएसिस (Schirmacher Oasis) में स्थित है [1][5]। यह भारत का दूसरा स्थायी अंटार्कटिक अनुसंधान स्टेशन है [5]।",
+          "citations": [
+            {
+              "asset_id": "23a1d384-44d3-4534-834f-322b26ccb9e8",
+              "title": "Maitri and Novolazarevskaya stations from space (Copernicus Sentinel-2, 1 March 2021)",
+              "href": "/asset/23a1d384-44d3-4534-834f-322b26ccb9e8"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-himadri-where",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3631,
+          "answer": "हि हिमाद्रि स्टेशन नॉर्वे के स्वावलबार्ड में अंतर्राष्ट्रीय शोध ग्राम न्यू-ऑलेसुंड (Ny-Ålesund, Svalbard) में स्थित है [1][6]। इसे 2008 में स्थापित किया गया था [1][6]।",
+          "citations": [
+            {
+              "asset_id": "7e0d3c75-4ee8-4af7-8a53-4687b565d383",
+              "title": "Flag-off of India's first winter scientific expedition to the Arctic",
+              "href": "/asset/7e0d3c75-4ee8-4af7-8a53-4687b565d383"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-dg-built",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3450,
+          "answer": "दक्षिण गंगोत्री स्टेशन का निर्माण तीसरे भारतीय वैज्ञानिक अंटार्कटिक अभियान (Third Indian Scientific Expedition to Antarctica) के दौरान किया गया था [1][4]। इसे 1983-1984 की गर्मियों में रिकॉर्ड आठ सप्ताह (या लगभग दो महीने) में स्थापित किया गया था [1][4]।",
+          "citations": [
+            {
+              "asset_id": "f97f533d-7865-42de-b653-e7b443e76cbb",
+              "title": "Dakshin Gangotri: The Indian Permanent Station in Antarctica",
+              "href": "/asset/f97f533d-7865-42de-b653-e7b443e76cbb"
+            },
+            {
+              "asset_id": "e7c6eff1-7cbc-43ac-bf81-22108192f9c3",
+              "title": "Scientific Report of the Third Indian Expedition to Antarctica: Introduction",
+              "href": "/asset/e7c6eff1-7cbc-43ac-bf81-22108192f9c3"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-bharati",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3371,
+          "answer": "भारती (Bharati) स्टेशन को 2012 में शुरू किया गया था [1][2]。 यह अंटार्कटिका में भारत का तीसरा अनुसंधान स्टेशन है, जो लार्समैन हिल्स (प्रिड्ज बे तट) में स्थित है [1][2]。",
+          "citations": [
+            {
+              "asset_id": "59e198a6-8f19-42a3-9a11-854ebfe951da",
+              "title": "Inauguration of a new Branch Post Office at Bharati Station in Antarctica · 17:00",
+              "href": "/asset/59e198a6-8f19-42a3-9a11-854ebfe951da?t=1020"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-seaice-2022",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5719,
+          "answer": "फरवरी 2022 में अंटार्कटिक समुद्री बर्फ़ का दायरा (SEA ICE EXTENT) उपग्रह युग के सबसे निचले स्तर पर पहुँच गया था, जो 25 फ़रवरी 2022 को घटकर 1.92 × 10⁶ वर्ग किलोमीटर रह गया [1][2]। दक्षिणी महासागर के सभी क्षेत्रों में एक साथ नकारात्मक समुद्री बर्फ़ की विसंगतियाँ (ANOMALIES) देखी गईं, जिनमें सबसे बड़ा योगदान रॉस सी (46%) और वेडेल सी (26%) का था [1][2]। अक्टूबर-नवंबर 2021 के दौरान अमंडसेन सी लो (ASL) की रिकॉर्ड गहराई और तीव्र अपतटीय हवाओं के कारण रॉस सागर में एक बड़ा तटीय पोलिन्या (COASTAL POLYNYA) बना, जिससे समुद्री बर्फ़ का नुकसान और तेज़ हो गया [1][2]। इसके अलावा, खुले पानी द्वारा सौर विकिरण के अवशोषण से ऊपरी महासागर के मिश्रित स्तर में लगभग 0.8°C तक की असामान्य वार्मिंग दर्ज की गई [1][2]।",
+          "citations": [
+            {
+              "asset_id": "ba9d6e00-6f06-427a-a2a2-54e811a3ae0b",
+              "title": "Record Low Antarctic Sea Ice Cover in February 2022",
+              "href": "/asset/ba9d6e00-6f06-427a-a2a2-54e811a3ae0b"
+            },
+            {
+              "asset_id": "abcb8299-3b39-476b-9c66-f34948146bb7",
+              "title": "NCPOR Annual Report 2022-23",
+              "href": "/asset/abcb8299-3b39-476b-9c66-f34948146bb7"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-himansh-what",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3249,
+          "answer": "हि, हिमांश अनुसंधान केंद्र हिमाचल प्रदेश के लाहुल-स्पीति जिले के चंद्र बेसिन में सुत्री ढाका में समुद्र तल से 4080 मीटर की ऊँचाई पर स्थित है [1][6]।",
+          "citations": [
+            {
+              "asset_id": "fe72d54f-1eee-4ab7-922f-eb953a30ebf9",
+              "title": "HIMANSH- NCPOR's High Altitude research station in Himalayas · 0:11",
+              "href": "/asset/fe72d54f-1eee-4ab7-922f-eb953a30ebf9?t=11"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-atcm46",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3879,
+          "answer": "भारत ने 46वीं अंटार्कटिक संधि परामर्शदात्री बैठक (ATCM-46) कोच्चि में आयोजित की थी [1][3][4][5]।",
+          "citations": [
+            {
+              "asset_id": "b60979b1-41fc-41e4-9230-f964da6f9ffa",
+              "title": "46th Antarctic Treaty Consultative Meeting (ATCM-46) and CEP-26, hosted by India",
+              "href": "/asset/b60979b1-41fc-41e4-9230-f964da6f9ffa"
+            },
+            {
+              "asset_id": "ab7fb151-04b8-4fb3-ba3c-53d3cec550e2",
+              "title": "Antarctica Day 2023 and 40 years of Dakshin Gangotri",
+              "href": "/asset/ab7fb151-04b8-4fb3-ba3c-53d3cec550e2"
+            },
+            {
+              "asset_id": "59e198a6-8f19-42a3-9a11-854ebfe951da",
+              "title": "Inauguration of a new Branch Post Office at Bharati Station in Antarctica · 28:30",
+              "href": "/asset/59e198a6-8f19-42a3-9a11-854ebfe951da?t=1710"
+            },
+            {
+              "asset_id": "d2f40bea-7815-473b-a5e5-b7a177170c0d",
+              "title": "NCPOR Antarctica Day 2023 Part 1 · 17:00",
+              "href": "/asset/d2f40bea-7815-473b-a5e5-b7a177170c0d?t=1020"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-arctic-winter",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3734,
+          "answer": "भारत का पहला शीतकालीन वैज्ञानिक अभियान आर्कटिक के लिए 18 दिसंबर 2023 को नई दिल्ली में आधिकारिक रूप से झंडा दिखाकर रवाना किया गया था [1][2][7]। यह अभियान हिमाद्रि स्टेशन, न्या-आलेसुंड, स्वालबार्ड के लिए भेजा गया था [1]।",
+          "citations": [
+            {
+              "asset_id": "7e0d3c75-4ee8-4af7-8a53-4687b565d383",
+              "title": "Flag-off of India's first winter scientific expedition to the Arctic",
+              "href": "/asset/7e0d3c75-4ee8-4af7-8a53-4687b565d383"
+            },
+            {
+              "asset_id": "3a63563e-31d8-4416-b46e-069a35852f9c",
+              "title": "Dhruvika, 5th issue (2024), NCPOR in-house Hindi magazine",
+              "href": "/asset/3a63563e-31d8-4416-b46e-069a35852f9c"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV expedition timelines",
+              "href": "/expeditions"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-out-cricket",
+          "pass": true,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": true,
+          "langOk": true,
+          "ms": 3614,
+          "answer": "I can only answer questions related to NCPOR, its research stations, expeditions, and related scientific activities based on the provided sources. The provided sources do not contain information about the 2023 Cricket World Cup. You might want to search for sports news websites or official cricket board archives to find this information.",
+          "citations": [],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-out-capital",
+          "pass": true,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": true,
+          "langOk": true,
+          "ms": 3989,
+          "answer": "I am Ask Dhruv, the question-answering assistant for the DHRUV portal. My sources cover India's polar and ocean research stations and expeditions, such as Maitri, Bharati, Himadri, and Himansh, as well as NCPOR activities [1][3][5][6]. They do not contain information about the capital of Australia. You might want to try searching for general geographic information online or in an atlas to find that answer!",
+          "citations": [
+            {
+              "asset_id": "59e198a6-8f19-42a3-9a11-854ebfe951da",
+              "title": "Inauguration of a new Branch Post Office at Bharati Station in Antarctica · 28:30",
+              "href": "/asset/59e198a6-8f19-42a3-9a11-854ebfe951da?t=1710"
+            },
+            {
+              "asset_id": "abcb8299-3b39-476b-9c66-f34948146bb7",
+              "title": "NCPOR Annual Report 2022-23",
+              "href": "/asset/abcb8299-3b39-476b-9c66-f34948146bb7"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV expedition timelines",
+              "href": "/expeditions"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-out-future",
+          "pass": true,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": true,
+          "langOk": true,
+          "ms": 3616,
+          "answer": "The provided sources do not contain information about a 60th Antarctic expedition, as the timeline currently only records up to the 45th Indian Scientific Expedition to Antarctica (ISEA-45) for the 2025-2026 season [6]. You might want to search for recent announcements regarding future expedition schedules or check the latest updates on the DHRUV portal.",
+          "citations": [
+            {
+              "asset_id": null,
+              "title": "DHRUV expedition timelines",
+              "href": "/expeditions"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-out-moon",
+          "pass": false,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": false,
+          "langOk": true,
+          "ms": 3818,
+          "answer": "NCPOR scientists do not conduct lunar missions or land on the Moon. NCPOR focuses on polar and ocean research on Earth—spanning Antarctica, the Arctic, the Himalayas, and the deep seas [1][2]. If you are interested in India's lunar explorations, you might want to search for information about the Indian Space Research Organisation (ISRO) and missions like Chandrayaan-1 [3].",
+          "citations": [
+            {
+              "asset_id": "3697a1f9-c4e7-443d-a0a4-93f8b9673171",
+              "title": "NCPOR 24th Foundation Day Ceremony · 2:49",
+              "href": "/asset/3697a1f9-c4e7-443d-a0a4-93f8b9673171?t=169"
+            },
+            {
+              "asset_id": "abcb8299-3b39-476b-9c66-f34948146bb7",
+              "title": "NCPOR Annual Report 2022-23",
+              "href": "/asset/abcb8299-3b39-476b-9c66-f34948146bb7"
+            },
+            {
+              "asset_id": "ff5cbd35-be44-4a99-b6e2-f08ebb197ee2",
+              "title": "Foundation Day Lecture on \"Planetary and Space Missions of India\"",
+              "href": "/asset/ff5cbd35-be44-4a99-b6e2-f08ebb197ee2"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-out-cricket",
+          "pass": true,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": true,
+          "langOk": true,
+          "ms": 5138,
+          "answer": "माफ़ कीजिए, उपलब्ध स्रोतों में 2023 क्रिकेट विश्व कप के विजेता से संबंधित कोई जानकारी नहीं दी गई है। ध्रुव पोर्टल के पास ध्रुवीय, महासागरीय और हिमालयी अनुसंधान, भारतीय अभियानों (जैसे अंटार्कटिका, आर्कटिक और हिमांश स्टेशन) तथा एनसीपीओआर की गतिविधियों से जुड़े आंकड़े मौजूद हैं। आप इस विषय के लिए किसी अन्य सूचना स्रोत की खोज कर सकते हैं।",
+          "citations": [],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-out-future",
+          "pass": true,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": true,
+          "langOk": true,
+          "ms": 3810,
+          "answer": "क्षमा करें, उपलब्ध स्रोतों में भारत के 60वें अंटार्कटिक अभियान की वापसी की कोई जानकारी नहीं है। आप अन्य अभियानों जैसे कि पहले, दूसरे, तीसरे, 42वें, 43वें, 44वें या 45वें भारतीय अंटार्कटिक अभियान के बारे में जानकारी खोज सकते हैं [1][5][7]。",
+          "citations": [
+            {
+              "asset_id": "6f75e7e5-55cf-4e47-a92e-dddb22928740",
+              "title": "Chronicles of Year 2023 : A Retrospective Journey at NCPOR · 0:00",
+              "href": "/asset/6f75e7e5-55cf-4e47-a92e-dddb22928740?t=0"
+            },
+            {
+              "asset_id": "3a63563e-31d8-4416-b46e-069a35852f9c",
+              "title": "Dhruvika, 5th issue (2024), NCPOR in-house Hindi magazine",
+              "href": "/asset/3a63563e-31d8-4416-b46e-069a35852f9c"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV expedition timelines",
+              "href": "/expeditions"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-26T17:06:05.499Z",
+      "label": "Baseline",
+      "provider": "gemini",
+      "open": false,
+      "model": "gemini-3.5-flash-lite",
+      "totals": {
+        "questions": 32,
+        "passed": 27,
+        "facts": 26,
+        "factsPassed": 21,
+        "refuse": 6,
+        "refusePassed": 6,
+        "langOk": 32,
+        "medianMs": 5172
+      },
+      "results": [
+        {
+          "id": "en-isea1-sail",
+          "pass": false,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": false,
+          "langOk": true,
+          "ms": 5087,
+          "answer": "India's first permanent base and scientific efforts in Antarctica trace back to the early expeditions [1][4]. Specifically, the Third Indian Scientific Expedition to Antarctica set sail from Goa on December 3, 1983, aboard the chartered Finnish ice-class vessel M.S. Finnpolaris to establish Dakshin Gangotri [1]. India's broader association and pioneering scientific engagement with the continent also began prior to these national expeditions, including individual researchers conducting work under foreign programs and India raising the question of Antarctica at the United Nations in 1956 [4].",
+          "citations": [
+            {
+              "asset_id": "e7c6eff1-7cbc-43ac-bf81-22108192f9c3",
+              "title": "Scientific Report of the Third Indian Expedition to Antarctica: Introduction",
+              "href": "/asset/e7c6eff1-7cbc-43ac-bf81-22108192f9c3"
+            },
+            {
+              "asset_id": "d2f40bea-7815-473b-a5e5-b7a177170c0d",
+              "title": "NCPOR Antarctica Day 2023 Part 1",
+              "href": "/asset/d2f40bea-7815-473b-a5e5-b7a177170c0d"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-isea1-leader",
+          "pass": false,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": false,
+          "langOk": true,
+          "ms": 3659,
+          "answer": "The Third Indian Scientific Expedition to Antarctica (1983–84), which successfully established India's first permanent base, Dakshin Gangotri, was led by Dr. Harsh K. Gupta [1]. Prior to this, India's association with Antarctica began with earlier national efforts, and pioneering Indian scientists like Dr. Giriraj Singh Sirohi and Lt. Ram Charan also conducted research under foreign programs in 1960 [4].",
+          "citations": [
+            {
+              "asset_id": "e7c6eff1-7cbc-43ac-bf81-22108192f9c3",
+              "title": "Scientific Report of the Third Indian Expedition to Antarctica: Introduction",
+              "href": "/asset/e7c6eff1-7cbc-43ac-bf81-22108192f9c3"
+            },
+            {
+              "asset_id": "d2f40bea-7815-473b-a5e5-b7a177170c0d",
+              "title": "NCPOR Antarctica Day 2023 Part 1",
+              "href": "/asset/d2f40bea-7815-473b-a5e5-b7a177170c0d"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-isea2-leader",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3075,
+          "answer": "The Second Indian Scientific Expedition to Antarctica (1982–83) was led by V. K. Raina of the Geological Survey of India [1].",
+          "citations": [
+            {
+              "asset_id": "20d27cab-c116-4191-9c8f-d501251b894f",
+              "title": "Scientific Report of the Second Indian Expedition to Antarctica: Introduction",
+              "href": "/asset/20d27cab-c116-4191-9c8f-d501251b894f"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-isea3-leader",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 6797,
+          "answer": "The Third Indian Scientific Expedition to Antarctica (1983–84) was led by Dr. Harsh K. Gupta [1].",
+          "citations": [
+            {
+              "asset_id": "e7c6eff1-7cbc-43ac-bf81-22108192f9c3",
+              "title": "Scientific Report of the Third Indian Expedition to Antarctica: Introduction",
+              "href": "/asset/e7c6eff1-7cbc-43ac-bf81-22108192f9c3"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-southpole-date",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5151,
+          "answer": "Indian scientists first reached the South Pole on 21 November 2010 during the historic first Indian Scientific Expedition to the South Pole [1]. The eight-member team, led by Rasik Ravindra, had started their journey from India's Maitri station on 13 November 2010 [1].",
+          "citations": [
+            {
+              "asset_id": "4f1fc03f-6850-4520-a1b9-10b88d3307f4",
+              "title": "1st South Pole Expedition by Indian Scientists of Indian Antarctic Program",
+              "href": "/asset/4f1fc03f-6850-4520-a1b9-10b88d3307f4"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-maitri-where",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5493,
+          "answer": "Maitri station is India's second permanent Antarctic research station, located in the ice-free Schirmacher Oasis of Dronning Maud Land [4].",
+          "citations": [
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-bharati",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5051,
+          "answer": "Bharati Station was commissioned in 2012 [1][2]. It is India's third Antarctic research station and is located in the Larsemann Hills on the Prydz Bay coast [1][2].",
+          "citations": [
+            {
+              "asset_id": "59e198a6-8f19-42a3-9a11-854ebfe951da",
+              "title": "Inauguration of a new Branch Post Office at Bharati Station in Antarctica · 0:05",
+              "href": "/asset/59e198a6-8f19-42a3-9a11-854ebfe951da?t=5"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-himadri-where",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 2855,
+          "answer": "India's Arctic research station, Himadri, is located in the international research village of Ny-Ålesund, Svalbard, in Norway [5][6]. The station is surrounded by mountains, glaciers, and water bodies [1].",
+          "citations": [
+            {
+              "asset_id": "52710de3-4e5a-4d4a-a70f-68f47bd2d917",
+              "title": "Indian Arctic Expedition · 2:00",
+              "href": "/asset/52710de3-4e5a-4d4a-a70f-68f47bd2d917?t=120"
+            },
+            {
+              "asset_id": "ebf1f6b4-2013-4e82-8373-cc541b1ed46a",
+              "title": "Arctic The Indian Connection",
+              "href": "/asset/ebf1f6b4-2013-4e82-8373-cc541b1ed46a"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-himansh-what",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3071,
+          "answer": "The **Himansh** research station is located at Sutri Dhaka in the Chandra basin, Lahaul-Spiti District, Himachal Pradesh, at an altitude of 4,080 meters (or approximately 4,000 meters) above mean sea level [1][2][3][4].",
+          "citations": [
+            {
+              "asset_id": "fe72d54f-1eee-4ab7-922f-eb953a30ebf9",
+              "title": "HIMANSH- NCPOR's High Altitude research station in Himalayas · 0:11",
+              "href": "/asset/fe72d54f-1eee-4ab7-922f-eb953a30ebf9?t=11"
+            },
+            {
+              "asset_id": "cd546810-21bb-497b-9ee7-07d434fabcdd",
+              "title": "National Centre for POlar and Ocean Research (NCPOR)- 2019 · 5:48",
+              "href": "/asset/cd546810-21bb-497b-9ee7-07d434fabcdd?t=348"
+            },
+            {
+              "asset_id": "4c6613ce-0354-4bbf-92d0-2f73110e8bb6",
+              "title": "The Himalayan Ice Keepers · 8:41",
+              "href": "/asset/4c6613ce-0354-4bbf-92d0-2f73110e8bb6?t=521"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-dg-built",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5854,
+          "answer": "Dakshin Gangotri, India's first permanent research station in Antarctica, was set up during the Third Indian Expedition to Antarctica (1983–84) [1][2][3].",
+          "citations": [
+            {
+              "asset_id": "f97f533d-7865-42de-b653-e7b443e76cbb",
+              "title": "Dakshin Gangotri: The Indian Permanent Station in Antarctica",
+              "href": "/asset/f97f533d-7865-42de-b653-e7b443e76cbb"
+            },
+            {
+              "asset_id": "e7c6eff1-7cbc-43ac-bf81-22108192f9c3",
+              "title": "Scientific Report of the Third Indian Expedition to Antarctica: Introduction",
+              "href": "/asset/e7c6eff1-7cbc-43ac-bf81-22108192f9c3"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-seaice-2022",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5595,
+          "answer": "In February 2022, the Antarctic Sea ice extent (SIE) dropped to an extremely low level of $1.92 \\times 10^6\\text{ km}^2$ [1]. This all-time low condition for the entire Southern Ocean was primarily driven by simultaneous negative ice anomalies across all sectors of the continent, particularly in the Ross and Weddell Seas, which contributed 72% to the decline [1]. This unusual drop was influenced by a record-low depth of the Amundsen Sea Low (ASL) in October/November 2021, combined with a positive southern annular mode (SAM) and La Niña conditions [1]. These factors caused strong offshore winds, intense polar cyclones, coastal polynya formation with upper ocean warming, and ice-albedo feedback that accelerated sea ice loss [1][2].",
+          "citations": [
+            {
+              "asset_id": "abcb8299-3b39-476b-9c66-f34948146bb7",
+              "title": "NCPOR Annual Report 2022-23",
+              "href": "/asset/abcb8299-3b39-476b-9c66-f34948146bb7"
+            },
+            {
+              "asset_id": "ba9d6e00-6f06-427a-a2a2-54e811a3ae0b",
+              "title": "Record Low Antarctic Sea Ice Cover in February 2022",
+              "href": "/asset/ba9d6e00-6f06-427a-a2a2-54e811a3ae0b"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-enso",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5550,
+          "answer": "Since the industrial era (~1850 CE), the influence of the El Niño-Southern Oscillation (ENSO) on Antarctic temperature has significantly increased [1]. Research based on ice core oxygen isotope records from East and West Antarctica shows a dominant increasing trend in the variance of East Antarctic temperatures within the ENSO frequency band (2–8 years) [1]. This heightened ENSO influence aligns with independent reconstructions showing increased tropical-subtropical ENSO activity and is attributed to a response to increasing radiative greenhouse gas (GHG) forcing, which amplifies Pacific-South American (PSA) atmospheric circulation patterns [1].",
+          "citations": [
+            {
+              "asset_id": "7fd85e8b-b0b8-4543-b9e4-7f5ac4e481d5",
+              "title": "Increased influence of ENSO on Antarctic temperature since the Industrial Era",
+              "href": "/asset/7fd85e8b-b0b8-4543-b9e4-7f5ac4e481d5"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-atcm46",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5356,
+          "answer": "Hello! India hosted the 46th Antarctic Treaty Consultative Meeting (ATCM-46) and the 26th meeting of the Committee for Environmental Protection (CEP-26) in **Kochi** in **May 2024** [1][3][5]. The international gathering was held under the theme *Vasudhaiva Kutumbakam* and focused on cooperative governance, environmental protection, and scientific collaboration [1].",
+          "citations": [
+            {
+              "asset_id": "b60979b1-41fc-41e4-9230-f964da6f9ffa",
+              "title": "46th Antarctic Treaty Consultative Meeting (ATCM-46) and CEP-26, hosted by India",
+              "href": "/asset/b60979b1-41fc-41e4-9230-f964da6f9ffa"
+            },
+            {
+              "asset_id": "ceb4a1a9-c974-4e6d-bae3-e90ba4477953",
+              "title": "2024: A Year to Remember – Highlights of NCPOR's Achievements · 2:24",
+              "href": "/asset/ceb4a1a9-c974-4e6d-bae3-e90ba4477953?t=144"
+            },
+            {
+              "asset_id": "d2f40bea-7815-473b-a5e5-b7a177170c0d",
+              "title": "NCPOR Antarctica Day 2023 Part 1 · 17:00",
+              "href": "/asset/d2f40bea-7815-473b-a5e5-b7a177170c0d?t=1020"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-arctic-winter",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5368,
+          "answer": "India's first winter scientific expedition to the Arctic was flagged off by the Union Minister of Earth Sciences on December 18, 2023 [1]. The team was headed to the Himadri station in Ny-Ålesund, Svalbard [1].",
+          "citations": [
+            {
+              "asset_id": "7e0d3c75-4ee8-4af7-8a53-4687b565d383",
+              "title": "Flag-off of India's first winter scientific expedition to the Arctic",
+              "href": "/asset/7e0d3c75-4ee8-4af7-8a53-4687b565d383"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-sagar-manthan",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3437,
+          "answer": "India's new ocean research vessel is named **Sagar Manthan** [1]. It was constructed by Garden Reach Shipbuilders & Engineers (GRSE) in Kolkata [1][3].",
+          "citations": [
+            {
+              "asset_id": "d35e0d31-c61c-4637-a0ad-355d41cd9bfe",
+              "title": "Launch of India's new ocean research vessel 'Sagar Manthan'",
+              "href": "/asset/d35e0d31-c61c-4637-a0ad-355d41cd9bfe"
+            },
+            {
+              "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+              "title": "NCPOR Annual Report 2024-25",
+              "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-maitri-data",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 2953,
+          "answer": "Yes, there is a dataset of surface weather for Maitri! It is part of the \"Surface weather at Dakshin Gangotri and Maitri, Antarctica, 1985-2010\" dataset published by NCPOR's National Polar Data Center [1]. This dataset covers the years from 1990 to 2010 for the Maitri station (and includes Dakshin Gangotri from 1985 to 1989) [1].",
+          "citations": [
+            {
+              "asset_id": "9b32b82a-7e36-474a-b070-e3418164dd23",
+              "title": "Surface weather at Dakshin Gangotri and Maitri, Antarctica, 1985-2010",
+              "href": "/asset/9b32b82a-7e36-474a-b070-e3418164dd23"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-isea1-sail",
+          "pass": false,
+          "termsOk": false,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 6186,
+          "answer": "भारत का अंटार्कटिका के साथ जुड़ाव 1956 में संयुक्त राष्ट्र में इस पर आवाज़ उठाने के साथ शुरू हुआ था और आधिकारिक राष्ट्रीय अभियानों से पहले भी हमारे वैज्ञानिकों ने विदेशी कार्यक्रमों के तहत वहाँ अनुसंधान किया था [1]। हालांकि, भारत के पहले वैज्ञानिक अभियान की शुरुआत 'फर्स्ट इंडियन अंटार्कटिक एक्सपेडिशन' से हुई थी, जिसके वैज्ञानिक परिणामों और तकनीकी रिपोर्टों का प्रलेखन किया गया है [5]। इसके अलावा, भारत के पहले वैज्ञानिक आधार 'दक्षिण गंगोत्री' की स्थापना तीसरे अभियान (1983-84) के दौरान की गई थी [6]।",
+          "citations": [
+            {
+              "asset_id": "d2f40bea-7815-473b-a5e5-b7a177170c0d",
+              "title": "NCPOR Antarctica Day 2023 Part 1 · 29:00",
+              "href": "/asset/d2f40bea-7815-473b-a5e5-b7a177170c0d?t=1740"
+            },
+            {
+              "asset_id": "74ffaeff-2404-44de-b3c3-82786304040d",
+              "title": "Scientific Report of the First Indian Expedition to Antarctica: Introduction",
+              "href": "/asset/74ffaeff-2404-44de-b3c3-82786304040d"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-southpole-date",
+          "pass": false,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": true,
+          "langOk": true,
+          "ms": 4771,
+          "answer": "प्रदान किए गए स्रोतों में भारतीय वैज्ञानिकों के पहली बार दक्षिणी ध्रुव पर पहुँचने की विशिष्ट तिथि या वर्ष का उल्लेख नहीं है। स्रोत केवल भारत के विभिन्न अनुसंधान स्टेशनों जैसे कि दक्षिण गंगोत्री (1983) [1], मैत्री (1989) [1], और भारती (2012) [1] की स्थापना की जानकारी देते हैं। आप इस विषय के बारे में अधिक जानने के लिए भारतीय अंटार्कटिक अभियानों के इतिहास से जुड़े अन्य ऐतिहासिक दस्तावेजों की खोज कर सकते हैं।",
+          "citations": [
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-maitri-where",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5791,
+          "answer": "मैत्री स्टेशन अंटार्कटिका के ड्रॉनिंग मॉड लैंड (Dronning Maud Land) क्षेत्र में बर्फ-मुक्त शाइरमाकर ओएसिस (Schirmacher Oasis) में स्थित है [5]। यह भारत का दूसरा स्थायी अंटार्कटिकी अनुसंधान स्टेशन है, जो वर्ष-भर मौसम विज्ञान, हिमनद विज्ञान और पर्यावरण अध्ययन जैसे अनुसंधान कार्यों का समर्थन करता है [5]।",
+          "citations": [
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-himadri-where",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5172,
+          "answer": "हि हिमाद्रि स्टेशन नॉर्वे के स्वालबार्ड (Svalbard) में अंतरराष्ट्रीय अनुसंधान गाँव न्यु-आलेसुंड (Ny-Ålesund) में स्थित है [3][6]। यह भारत का आर्कटिक अनुसंधान स्टेशन है, जिसे 2008 में स्थापित किया गया था [3][6]।",
+          "citations": [
+            {
+              "asset_id": "7e0d3c75-4ee8-4af7-8a53-4687b565d383",
+              "title": "Flag-off of India's first winter scientific expedition to the Arctic",
+              "href": "/asset/7e0d3c75-4ee8-4af7-8a53-4687b565d383"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-dg-built",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5506,
+          "answer": "दक्षिण गंगोत्री स्टेशन, जो भारत का पहला अंटार्कटिक अनुसंधान स्टेशन है, तीसरे भारतीय अंटार्कटिक अभियान (1983-84) के दौरान स्थापित किया गया था [6]।",
+          "citations": [
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-bharati",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3171,
+          "answer": "भारत का तीसरा अंटार्कटिक अनुसंधान स्टेशन, भारती स्टेशन, वर्ष 2012 में शुरू (कमीशन) किया गया था [1][2]। यह लार्समैन हिल्स (प्रिड्ज खाड़ी तट) पर स्थित है [2]।",
+          "citations": [
+            {
+              "asset_id": "59e198a6-8f19-42a3-9a11-854ebfe951da",
+              "title": "Inauguration of a new Branch Post Office at Bharati Station in Antarctica · 17:00",
+              "href": "/asset/59e198a6-8f19-42a3-9a11-854ebfe951da?t=1020"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-seaice-2022",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 3483,
+          "answer": "फ़रवरी 2022 में अंटार्कटिक समुद्री बर्फ़ का विस्तार (Sea Ice Extent) घटकर 1.92 × 10⁶ वर्ग किलोमीटर के ऐतिहासिक न्यूनतम स्तर पर पहुँच गया था [1][2]। यह गिरावट महासागर के सभी सेक्टरों में नकारात्मक बर्फ़ विसंगतियों के कारण हुई, जिसमें रॉस सागर (Ross Sea) और वेडेल सागर (Weddell Sea) का सबसे बड़ा योगदान रहा [1][2]। अक्टूबर-नवंबर 2021 के दौरान अमंडसेन सागर कम दबाव (ASL) के अत्यधिक गहरा होने और तीव्र अपतटीय हवाओं ने रॉस सागर में एक बड़ा तटीय पोलीन्या (polynya) बनाया, जिससे सौर विकिरण और बर्फ़-लबीडो प्रतिक्रिया (ice-albedo feedback) के कारण बर्फ़ का पिघलना और तेज़ हो गया [1][2]। इसके अलावा, दिसंबर में वेडेल सागर के उत्तर में रिकॉर्ड मजबूत पश्चिमी हवाओं के कारण वहाँ से भी बर्फ़ का निर्यात हुआ [1][2]।",
+          "citations": [
+            {
+              "asset_id": "ba9d6e00-6f06-427a-a2a2-54e811a3ae0b",
+              "title": "Record Low Antarctic Sea Ice Cover in February 2022",
+              "href": "/asset/ba9d6e00-6f06-427a-a2a2-54e811a3ae0b"
+            },
+            {
+              "asset_id": "abcb8299-3b39-476b-9c66-f34948146bb7",
+              "title": "NCPOR Annual Report 2022-23",
+              "href": "/asset/abcb8299-3b39-476b-9c66-f34948146bb7"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-himansh-what",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5485,
+          "answer": "हिमांश अनुसंधान केंद्र हिमाचल प्रदेश के लाहुल-स्पीति जिले के चंद्र बेसिन में सुथरी ढाका नामक स्थान पर समुद्र तल से 4080 मीटर की ऊँचाई पर स्थित है [1][2][6]। इसे 9 अक्टूबर 2016 को स्थापित किया गया था [1][6]।",
+          "citations": [
+            {
+              "asset_id": "fe72d54f-1eee-4ab7-922f-eb953a30ebf9",
+              "title": "HIMANSH- NCPOR's High Altitude research station in Himalayas · 0:11",
+              "href": "/asset/fe72d54f-1eee-4ab7-922f-eb953a30ebf9?t=11"
+            },
+            {
+              "asset_id": "4c6613ce-0354-4bbf-92d0-2f73110e8bb6",
+              "title": "The Himalayan Ice Keepers · 8:41",
+              "href": "/asset/4c6613ce-0354-4bbf-92d0-2f73110e8bb6?t=521"
+            },
+            {
+              "asset_id": null,
+              "title": "DHRUV station directory",
+              "href": "/explore"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-atcm46",
+          "pass": true,
+          "termsOk": true,
+          "sourceOk": true,
+          "refused": false,
+          "langOk": true,
+          "ms": 5494,
+          "answer": "भारत ने 46वीं अंटार्कटिक संधि परामर्शदात्री बैठक (ATCM-46) और पर्यावरण संरक्षण समिति (CEP-26) की बैठक को कोच्चि में आयोजित किया था [1][2]।",
+          "citations": [
+            {
+              "asset_id": "cf1a3665-da5a-4bd4-9186-726161c05cfb",
+              "title": "NCPOR Annual Report 2024-25",
+              "href": "/asset/cf1a3665-da5a-4bd4-9186-726161c05cfb"
+            },
+            {
+              "asset_id": "b60979b1-41fc-41e4-9230-f964da6f9ffa",
+              "title": "46th Antarctic Treaty Consultative Meeting (ATCM-46) and CEP-26, hosted by India",
+              "href": "/asset/b60979b1-41fc-41e4-9230-f964da6f9ffa"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-arctic-winter",
+          "pass": false,
+          "termsOk": true,
+          "sourceOk": false,
+          "refused": false,
+          "langOk": true,
+          "ms": 6022,
+          "answer": "भारत का पहला आर्कटिक शीतकालीन वैज्ञानिक अभियान दिसंबर 2023 में शुरू किया गया था। इसे नई दिल्ली में केंद्रीय पृथ्वी विज्ञान मंत्री किरेन रिजिजू द्वारा लॉन्च किया गया था [1][5]।",
+          "citations": [
+            {
+              "asset_id": "3a63563e-31d8-4416-b46e-069a35852f9c",
+              "title": "Dhruvika, 5th issue (2024), NCPOR in-house Hindi magazine",
+              "href": "/asset/3a63563e-31d8-4416-b46e-069a35852f9c"
+            },
+            {
+              "asset_id": "f28e05a7-85a1-42bd-a16d-f47c22460b09",
+              "title": "NCPOR Annual Report 2023-24",
+              "href": "/asset/f28e05a7-85a1-42bd-a16d-f47c22460b09"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-out-cricket",
+          "pass": true,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": true,
+          "langOk": true,
+          "ms": 5008,
+          "answer": "I am sorry, but the provided sources do not contain information about who won the 2023 Cricket World Cup. My knowledge is limited to India's polar and high-altitude research stations like Maitri, Bharati, Himadri, and Himansh. You could try searching for sports news or cricket archives on the internet for that information!",
+          "citations": [],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-out-capital",
+          "pass": true,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": true,
+          "langOk": true,
+          "ms": 5142,
+          "answer": "I am sorry, but the provided sources do not contain information about the capital of Australia. You might want to search for general geographical reference information or check an atlas to find this fact.",
+          "citations": [],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-out-future",
+          "pass": true,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": true,
+          "langOk": true,
+          "ms": 3755,
+          "answer": "The provided sources do not contain any information about a 60th Antarctic expedition or when it returned home. If you are interested, you could try searching for recent updates or specific expedition logs related to the Indian Antarctic Programme.",
+          "citations": [],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "en-out-moon",
+          "pass": true,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": true,
+          "langOk": true,
+          "ms": 3204,
+          "answer": "The provided sources do not mention any NCPOR scientists landing on the Moon. However, sources do discuss India's lunar exploration achievements, such as Chandrayaan-1's Moon Impact Probe landing on the lunar surface in 2008 and confirming surface water-ice [3]. If you are interested in NCPOR's actual domains, you could search for information regarding Indian expeditions to Antarctica, the Arctic, the Himalayas, or the Southern Ocean [1][2].",
+          "citations": [
+            {
+              "asset_id": "3697a1f9-c4e7-443d-a0a4-93f8b9673171",
+              "title": "NCPOR 24th Foundation Day Ceremony · 2:49",
+              "href": "/asset/3697a1f9-c4e7-443d-a0a4-93f8b9673171?t=169"
+            },
+            {
+              "asset_id": "abcb8299-3b39-476b-9c66-f34948146bb7",
+              "title": "NCPOR Annual Report 2022-23",
+              "href": "/asset/abcb8299-3b39-476b-9c66-f34948146bb7"
+            },
+            {
+              "asset_id": "ff5cbd35-be44-4a99-b6e2-f08ebb197ee2",
+              "title": "Foundation Day Lecture on \"Planetary and Space Missions of India\"",
+              "href": "/asset/ff5cbd35-be44-4a99-b6e2-f08ebb197ee2"
+            }
+          ],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-out-cricket",
+          "pass": true,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": true,
+          "langOk": true,
+          "ms": 5686,
+          "answer": "क्षमा करें, मेरे पास उपलब्ध स्रोतों में 2023 क्रिकेट विश्व कप के विजेता से संबंधित कोई जानकारी नहीं है। आप इस विषय के बारे में जानने के लिए इंटरनेट पर खोज कर सकते हैं।",
+          "citations": [],
+          "model": "gemini-3.5-flash-lite"
+        },
+        {
+          "id": "hi-out-future",
+          "pass": true,
+          "termsOk": false,
+          "sourceOk": false,
+          "refused": true,
+          "langOk": true,
+          "ms": 5548,
+          "answer": "क्षमा करें, उपलब्ध स्रोतों में भारत के 60वें अंटार्कटिक अभियान की वापसी की तारीख का कोई उल्लेख नहीं है। आप इस जानकारी के लिए अन्य आधिकारिक या मीडिया स्रोतों की खोज कर सकते हैं।",
+          "citations": [],
+          "model": "gemini-3.5-flash-lite"
+        }
+      ]
+    }
+  ]
+}

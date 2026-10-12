@@ -1,0 +1,50 @@
+# dependencies
+node_modules/
+
+# Next.js
+.next/
+.next-*/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# secrets — never commit
+.env
+.env.local
+.env.*.local
+
+# logs / OS
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# local test scratch
+.tmp-*
+
+# Demo content (large binaries, third-party licences)
+# Demo content: openly licensed files are kept (credits in seed-content/CREDITS.md);
+# NCPOR / Government of India PDFs have no open licence and stay out.
+seed-content/reports/
+seed-content/publications/dhruvika-*
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# graphify knowledge graph (generated)
+graphify-out/
+
+# local skill installs
+.agents/
+skills-lock.json
+demo-video*/
+demo-video*/
+
+# demo recordings and tool notes stay local
+*.mp4
+artifacts/
+AGENTS.md
+scripts/test-record.mjs

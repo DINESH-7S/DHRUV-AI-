@@ -1,0 +1,616 @@
+{
+  "about": "Fixed test set for Ask Dhruv (npm run eval-ask). Each factual question has a verified answer, the page it was checked against, the terms a correct answer must contain (each inner list: at least one of these), and the archive items a correct answer should cite ('directory' = the station directory, 'expeditions' = the sourced expedition timelines). 'refuse' questions are outside the archive: a correct response says so and does not answer from outside knowledge. Do not tune the questions to the answers; add new ones instead.",
+  "questions": [
+    {
+      "id": "en-isea1-sail",
+      "locale": "en",
+      "kind": "fact",
+      "q": "When did India's first expedition to Antarctica set sail, and from where?",
+      "truth": "6 December 1981, from Mormugao, Goa.",
+      "verified_at": "http://14.139.119.23:8080/dspace/handle/123456789/126",
+      "must": [
+        [
+          "1981"
+        ],
+        [
+          "december"
+        ],
+        [
+          "goa",
+          "mormugao",
+          "marmagao"
+        ]
+      ],
+      "sources": [
+        "74ffaeff",
+        "expeditions"
+      ]
+    },
+    {
+      "id": "en-isea1-leader",
+      "locale": "en",
+      "kind": "fact",
+      "q": "Who led the first Indian expedition to Antarctica?",
+      "truth": "Dr S. Z. Qasim.",
+      "verified_at": "http://14.139.119.23:8080/dspace/handle/123456789/126",
+      "must": [
+        [
+          "qasim"
+        ]
+      ],
+      "sources": [
+        "74ffaeff",
+        "expeditions"
+      ]
+    },
+    {
+      "id": "en-isea2-leader",
+      "locale": "en",
+      "kind": "fact",
+      "q": "Who was the leader of India's second expedition to Antarctica?",
+      "truth": "V. K. Raina.",
+      "verified_at": "http://14.139.119.23:8080/dspace/handle/123456789/161",
+      "must": [
+        [
+          "raina"
+        ]
+      ],
+      "sources": [
+        "20d27cab",
+        "expeditions"
+      ]
+    },
+    {
+      "id": "en-isea3-leader",
+      "locale": "en",
+      "kind": "fact",
+      "q": "Who led the third Indian expedition to Antarctica?",
+      "truth": "Dr Harsh K. Gupta.",
+      "verified_at": "http://14.139.119.23:8080/dspace/handle/123456789/202",
+      "must": [
+        [
+          "gupta"
+        ]
+      ],
+      "sources": [
+        "e7c6eff1",
+        "f97f533d",
+        "expeditions"
+      ]
+    },
+    {
+      "id": "en-southpole-date",
+      "locale": "en",
+      "kind": "fact",
+      "q": "When did Indian scientists first reach the South Pole?",
+      "truth": "21 November 2010.",
+      "verified_at": "https://ncpor.res.in/antarcticas/display/369-significant-achievements-",
+      "must": [
+        [
+          "2010"
+        ],
+        [
+          "21"
+        ],
+        [
+          "november"
+        ]
+      ],
+      "sources": [
+        "5bd63baf",
+        "4f1fc03f",
+        "1b92a94c",
+        "expeditions"
+      ]
+    },
+    {
+      "id": "en-maitri-where",
+      "locale": "en",
+      "kind": "fact",
+      "q": "Where is Maitri station located?",
+      "truth": "In the Schirmacher Oasis, about 5 km from Russia's Novolazarevskaya station.",
+      "verified_at": "https://en.wikipedia.org/wiki/Maitri_(research_station)",
+      "must": [
+        [
+          "schirmacher"
+        ]
+      ],
+      "sources": [
+        "directory",
+        "86d5306e",
+        "23a1d384",
+        "fd6df545",
+        "9b32b82a"
+      ]
+    },
+    {
+      "id": "en-bharati",
+      "locale": "en",
+      "kind": "fact",
+      "q": "When was Bharati station commissioned, and where is it?",
+      "truth": "Operational since 18 March 2012, beside the Larsemann Hills.",
+      "verified_at": "https://en.wikipedia.org/wiki/Bharati_(research_station)",
+      "must": [
+        [
+          "2012"
+        ],
+        [
+          "larsemann"
+        ]
+      ],
+      "sources": [
+        "directory",
+        "9b67a551"
+      ]
+    },
+    {
+      "id": "en-himadri-where",
+      "locale": "en",
+      "kind": "fact",
+      "q": "Where is India's Arctic station Himadri?",
+      "truth": "At Ny-Ålesund, Svalbard (Norway).",
+      "verified_at": "https://en.wikipedia.org/wiki/Himadri_(research_station)",
+      "must": [
+        [
+          "ny-alesund",
+          "ny alesund",
+          "svalbard"
+        ]
+      ],
+      "sources": [
+        "directory",
+        "17a9f165"
+      ]
+    },
+    {
+      "id": "en-himansh-what",
+      "locale": "en",
+      "kind": "fact",
+      "q": "Where is the Himansh research station?",
+      "truth": "A high-altitude station (4,080 m) at Sutri Dhaka in the Chandra basin, Lahaul-Spiti, Himachal Pradesh, opened in October 2016 for Himalayan research.",
+      "verified_at": "https://en.wikipedia.org/wiki/National_Centre_for_Polar_and_Ocean_Research",
+      "must": [
+        [
+          "chandra",
+          "sutri dhaka",
+          "lahaul",
+          "spiti",
+          "himachal"
+        ]
+      ],
+      "sources": [
+        "directory",
+        "fe72d54f",
+        "8af59578"
+      ]
+    },
+    {
+      "id": "en-dg-built",
+      "locale": "en",
+      "kind": "fact",
+      "q": "During which expedition was Dakshin Gangotri set up?",
+      "truth": "The Third Indian Expedition to Antarctica (1983-84).",
+      "verified_at": "http://14.139.119.23:8080/dspace/handle/123456789/202",
+      "must": [
+        [
+          "third",
+          "3rd"
+        ]
+      ],
+      "sources": [
+        "directory",
+        "e7c6eff1",
+        "f97f533d",
+        "2ff73608",
+        "bf348448",
+        "expeditions"
+      ]
+    },
+    {
+      "id": "en-seaice-2022",
+      "locale": "en",
+      "kind": "fact",
+      "q": "What was unusual about Antarctic sea ice in February 2022?",
+      "truth": "It fell to a record low.",
+      "verified_at": "https://doi.org/10.1029/2022GL098904",
+      "must": [
+        [
+          "record"
+        ],
+        [
+          "low"
+        ]
+      ],
+      "sources": [
+        "ba9d6e00",
+        "7af22cfa"
+      ]
+    },
+    {
+      "id": "en-enso",
+      "locale": "en",
+      "kind": "fact",
+      "q": "How has the influence of ENSO on Antarctic temperature changed since the Industrial Era?",
+      "truth": "It has increased.",
+      "verified_at": "https://doi.org/10.1038/s41598-019-42499-x",
+      "must": [
+        [
+          "increas",
+          "strong",
+          "grown",
+          "intensif"
+        ]
+      ],
+      "sources": [
+        "7fd85e8b"
+      ]
+    },
+    {
+      "id": "en-atcm46",
+      "locale": "en",
+      "kind": "fact",
+      "q": "Where and when did India host the 46th Antarctic Treaty Consultative Meeting?",
+      "truth": "Kochi, Kerala, 20-30 May 2024.",
+      "verified_at": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2022278",
+      "must": [
+        [
+          "kochi"
+        ],
+        [
+          "2024"
+        ]
+      ],
+      "sources": [
+        "b60979b1"
+      ]
+    },
+    {
+      "id": "en-arctic-winter",
+      "locale": "en",
+      "kind": "fact",
+      "q": "When was India's first winter scientific expedition to the Arctic flagged off?",
+      "truth": "18 December 2023, in New Delhi.",
+      "verified_at": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987724",
+      "must": [
+        [
+          "december"
+        ],
+        [
+          "2023"
+        ]
+      ],
+      "sources": [
+        "7e0d3c75",
+        "52710de3",
+        "expeditions",
+        "3a63563e",
+        "f28e05a7"
+      ],
+      "key_note": "26 Sep 2026: added the Dhruvika magazine (3a63563e) and Annual Report 2023-24 (f28e05a7) after checking that both state the December 2023 launch; the baseline had graded a correct citation as wrong."
+    },
+    {
+      "id": "en-sagar-manthan",
+      "locale": "en",
+      "kind": "fact",
+      "q": "What is the name of India's new ocean research vessel, and where was it built?",
+      "truth": "Sagar Manthan, at GRSE's Rishi Bankim Shipyard, Kolkata.",
+      "verified_at": "https://ncpor.res.in/news/view/1052",
+      "must": [
+        [
+          "sagar manthan"
+        ]
+      ],
+      "sources": [
+        "d35e0d31"
+      ]
+    },
+    {
+      "id": "en-maitri-data",
+      "locale": "en",
+      "kind": "fact",
+      "q": "Is there a dataset of surface weather at Maitri? Which years does it cover?",
+      "truth": "Yes: surface weather at Dakshin Gangotri and Maitri, 1985-2010.",
+      "verified_at": "https://data.ncpor.res.in/ant_temp_pres",
+      "must": [
+        [
+          "1985"
+        ],
+        [
+          "2010"
+        ]
+      ],
+      "sources": [
+        "9b32b82a"
+      ]
+    },
+    {
+      "id": "hi-isea1-sail",
+      "locale": "hi",
+      "kind": "fact",
+      "q": "भारत का पहला अंटार्कटिक अभियान कब रवाना हुआ?",
+      "truth": "6 दिसंबर 1981 (मोरमुगाओ, गोवा से)।",
+      "verified_at": "http://14.139.119.23:8080/dspace/handle/123456789/126",
+      "must": [
+        [
+          "1981"
+        ],
+        [
+          "दिसंबर",
+          "दिसम्बर",
+          "december"
+        ]
+      ],
+      "sources": [
+        "74ffaeff",
+        "expeditions"
+      ]
+    },
+    {
+      "id": "hi-southpole-date",
+      "locale": "hi",
+      "kind": "fact",
+      "q": "भारतीय वैज्ञानिक पहली बार दक्षिणी ध्रुव पर कब पहुँचे?",
+      "truth": "21 नवंबर 2010।",
+      "verified_at": "https://ncpor.res.in/antarcticas/display/369-significant-achievements-",
+      "must": [
+        [
+          "2010"
+        ],
+        [
+          "21"
+        ],
+        [
+          "नवंबर",
+          "नवम्बर",
+          "november"
+        ]
+      ],
+      "sources": [
+        "5bd63baf",
+        "4f1fc03f",
+        "1b92a94c",
+        "expeditions"
+      ]
+    },
+    {
+      "id": "hi-maitri-where",
+      "locale": "hi",
+      "kind": "fact",
+      "q": "मैत्री स्टेशन कहाँ स्थित है?",
+      "truth": "शिरमाकर ओएसिस में, रूस के नोवोलाज़ारेव्स्काया स्टेशन से लगभग 5 किमी दूर।",
+      "verified_at": "https://en.wikipedia.org/wiki/Maitri_(research_station)",
+      "must": [
+        [
+          "schirmacher",
+          "शिरमाकर",
+          "शिर्माकर",
+          "शिरमैकर",
+          "शिर्मैकर",
+          "शिरमाचर",
+          "श्रिमाकर",
+          "शिर्मा",
+          "ड्रोनिंग",
+          "dronning"
+        ]
+      ],
+      "sources": [
+        "directory",
+        "86d5306e",
+        "23a1d384",
+        "fd6df545",
+        "9b32b82a"
+      ]
+    },
+    {
+      "id": "hi-himadri-where",
+      "locale": "hi",
+      "kind": "fact",
+      "q": "हिमाद्रि स्टेशन कहाँ है?",
+      "truth": "नॉर्वे के स्वालबार्ड में नी-आलेसुंड अंतरराष्ट्रीय अनुसंधान केंद्र में।",
+      "verified_at": "https://en.wikipedia.org/wiki/Himadri_(research_station)",
+      "must": [
+        [
+          "स्वालबार्ड",
+          "स्वालबर्ड",
+          "svalbard",
+          "एलेसुंड",
+          "आलेसुंड",
+          "ålesund",
+          "alesund",
+          "नॉर्वे",
+          "नार्वे"
+        ]
+      ],
+      "sources": [
+        "directory",
+        "17a9f165"
+      ]
+    },
+    {
+      "id": "hi-dg-built",
+      "locale": "hi",
+      "kind": "fact",
+      "q": "दक्षिण गंगोत्री स्टेशन किस अभियान के दौरान बनाया गया?",
+      "truth": "अंटार्कटिका के लिए तीसरे भारतीय अभियान (1983-84) के दौरान।",
+      "verified_at": "http://14.139.119.23:8080/dspace/handle/123456789/202",
+      "must": [
+        [
+          "तीसरे",
+          "तीसरा",
+          "third",
+          "3rd",
+          "1983"
+        ]
+      ],
+      "sources": [
+        "directory",
+        "e7c6eff1",
+        "f97f533d",
+        "2ff73608",
+        "bf348448",
+        "expeditions"
+      ]
+    },
+    {
+      "id": "hi-bharati",
+      "locale": "hi",
+      "kind": "fact",
+      "q": "भारती स्टेशन कब शुरू हुआ?",
+      "truth": "2012 में (18 मार्च 2012 से कार्यरत)।",
+      "verified_at": "https://en.wikipedia.org/wiki/Bharati_(research_station)",
+      "must": [
+        [
+          "2012"
+        ]
+      ],
+      "sources": [
+        "directory",
+        "9b67a551"
+      ]
+    },
+    {
+      "id": "hi-seaice-2022",
+      "locale": "hi",
+      "kind": "fact",
+      "q": "फरवरी 2022 में अंटार्कटिक समुद्री बर्फ़ के बारे में क्या असामान्य था?",
+      "truth": "वह रिकॉर्ड स्तर तक कम हो गई।",
+      "verified_at": "https://doi.org/10.1029/2022GL098904",
+      "must": [
+        [
+          "रिकॉर्ड",
+          "रिकार्ड",
+          "record",
+          "न्यूनतम",
+          "सबसे कम"
+        ]
+      ],
+      "sources": [
+        "ba9d6e00",
+        "7af22cfa"
+      ]
+    },
+    {
+      "id": "hi-himansh-what",
+      "locale": "hi",
+      "kind": "fact",
+      "q": "हिमांश अनुसंधान केंद्र कहाँ स्थित है?",
+      "truth": "हिमाचल प्रदेश की लाहौल-स्पीति घाटी में चंद्रा बेसिन के सुत्री ढाका में (4,080 मीटर की ऊँचाई पर)।",
+      "verified_at": "https://en.wikipedia.org/wiki/National_Centre_for_Polar_and_Ocean_Research",
+      "must": [
+        [
+          "चंद्रा",
+          "चन्द्रा",
+          "chandra",
+          "लाहौल",
+          "स्पीति",
+          "हिमाचल",
+          "सुत्री"
+        ]
+      ],
+      "sources": [
+        "directory",
+        "fe72d54f",
+        "8af59578"
+      ]
+    },
+    {
+      "id": "hi-atcm46",
+      "locale": "hi",
+      "kind": "fact",
+      "q": "भारत ने 46वीं अंटार्कटिक संधि परामर्शदात्री बैठक कहाँ आयोजित की?",
+      "truth": "कोच्चि, केरल में (20-30 मई 2024)।",
+      "verified_at": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2022278",
+      "must": [
+        [
+          "कोच्चि",
+          "कोचि",
+          "kochi"
+        ]
+      ],
+      "sources": [
+        "b60979b1"
+      ]
+    },
+    {
+      "id": "hi-arctic-winter",
+      "locale": "hi",
+      "kind": "fact",
+      "q": "आर्कटिक के लिए भारत का पहला शीतकालीन वैज्ञानिक अभियान कब रवाना हुआ?",
+      "truth": "18 दिसंबर 2023 को, नई दिल्ली से।",
+      "verified_at": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987724",
+      "must": [
+        [
+          "2023"
+        ],
+        [
+          "दिसंबर",
+          "दिसम्बर",
+          "december"
+        ]
+      ],
+      "sources": [
+        "7e0d3c75",
+        "52710de3",
+        "expeditions",
+        "3a63563e",
+        "f28e05a7"
+      ],
+      "key_note": "26 Sep 2026: added the Dhruvika magazine (3a63563e) and Annual Report 2023-24 (f28e05a7) after checking that both state the December 2023 launch; the baseline had graded a correct citation as wrong."
+    },
+    {
+      "id": "en-out-cricket",
+      "locale": "en",
+      "kind": "refuse",
+      "q": "Who won the 2023 Cricket World Cup?",
+      "truth": "Not in the archive: Dhruv should say so.",
+      "forbid": [
+        "australia"
+      ]
+    },
+    {
+      "id": "en-out-capital",
+      "locale": "en",
+      "kind": "refuse",
+      "q": "What is the capital of Australia?",
+      "truth": "Not in the archive: Dhruv should say so.",
+      "forbid": [
+        "canberra"
+      ]
+    },
+    {
+      "id": "en-out-future",
+      "locale": "en",
+      "kind": "refuse",
+      "q": "When did India's 60th Antarctic expedition return home?",
+      "truth": "No such expedition has happened yet: Dhruv should say it has no information.",
+      "forbid": []
+    },
+    {
+      "id": "en-out-moon",
+      "locale": "en",
+      "kind": "refuse",
+      "q": "How many NCPOR scientists have landed on the Moon?",
+      "truth": "Not in the archive: Dhruv should say so and not invent a number.",
+      "forbid": []
+    },
+    {
+      "id": "hi-out-cricket",
+      "locale": "hi",
+      "kind": "refuse",
+      "q": "2023 क्रिकेट विश्व कप किसने जीता?",
+      "truth": "संग्रह में नहीं है: ध्रुव को यही बताना चाहिए।",
+      "forbid": [
+        "ऑस्ट्रेलिया",
+        "australia"
+      ]
+    },
+    {
+      "id": "hi-out-future",
+      "locale": "hi",
+      "kind": "refuse",
+      "q": "भारत का 60वाँ अंटार्कटिक अभियान कब वापस लौटा?",
+      "truth": "ऐसा अभियान अभी हुआ ही नहीं: ध्रुव को बताना चाहिए कि जानकारी नहीं है।",
+      "forbid": []
+    }
+  ]
+}
