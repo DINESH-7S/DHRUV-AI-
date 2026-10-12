@@ -7,6 +7,10 @@
 
 > DHRUV is a student prototype. It is **not** an official website of NCPOR, the Ministry of Earth Sciences or the Government of India. Every document, photo, video and dataset is credited to its owner on its own page.
 
+![DHRUV home page](docs/screenshots/01-home.jpg)
+
+**Contents:** [Why we built this](#why-we-built-this) · [What it does](#what-it-does) · [Walkthrough](#walkthrough) · [How it's built](#how-its-built) · [Run it yourself](#run-it-yourself) · [What's next](#whats-next)
+
 ---
 
 ## Why we built this
@@ -40,18 +44,88 @@ Our real example: **NCPOR's Annual Report 2024-25** (19 MB, 170 pages) became 11
 
 **Built for everyone.** The site is fully bilingual (English and Hindi, 511 interface texts in each) and designed for phones first. Automated WCAG 2.1 AA checks find 0 accessibility violations. Pages load in 1 to 2.3 seconds on a budget phone over 4G.
 
-## A quick tour
+## Walkthrough
 
-| Page | What you'll see |
+A tour of the app the way a visitor, a student and an NCPOR staff member would use it. All screenshots are from the running app with real, credited content.
+
+### 1. Home: India's polar work at a glance
+
+The home page opens on a real photo from India's first scientific expedition to the South Pole (2010), credited to the photographer. Under it are live numbers from the archive: 45 Indian Antarctic expeditions, 5 research stations, 82 archive items and 11 expeditions with sources.
+
+### 2. The stations, live
+
+![Globe with live station weather](docs/screenshots/02-stations.jpg)
+
+A 3D globe shows where Maitri, Bharati, Himadri and Himansh are. Day and night on the globe follow the real position of the sun, and each station card shows its current temperature and weather. Click a station to open its page with photos, reports and expeditions linked to it.
+
+### 3. Explore the archive
+
+![Explore page](docs/screenshots/03-explore.jpg)
+
+Every report, paper, dataset, photo, video and activity in one searchable place. Filter by type, region, station or expedition. Search works in English and Hindi: a Hindi search also finds items that were catalogued in English.
+
+### 4. Ask Dhruv
+
+![Ask Dhruv answering with sources](docs/screenshots/04-ask.jpg)
+
+Ask a question in plain English or Hindi, for example *"What was Dakshin Gangotri?"*. Dhruv answers only from the archive. The small numbers in the answer are links to its sources, and each source card says what kind of source it is and which page it came from. Clicking a report source opens the PDF at that exact page; a video source starts the video at the right minute.
+
+The sample questions have saved answers, so they open instantly even when the free AI service is busy. They are labelled "Saved answer", and **Ask the live AI** runs the question again live.
+
+### 5. How accurate is it?
+
+![Accuracy scorecard](docs/screenshots/06-accuracy.jpg)
+
+The `/accuracy` page shows the test results in public: 32 fixed questions, each with the answer we checked by hand and the answer Dhruv gave. Latest run: 26 of 26 facts right with the right source, 5 of 6 out-of-archive questions answered honestly with "not in the archive", and 32 of 32 answered in the language asked. The one failure stays on the page.
+
+### 6. Expeditions with sources
+
+![South Pole expedition page](docs/screenshots/07-expedition.jpg)
+
+Each expedition page has its dates, team, a timeline and a route map, and every fact links to where it came from (NCPOR's own reports, news and videos). Expeditions we could not source are not shown.
+
+### 7. Staff: upload once, get everything
+
+![One upload, eleven outputs](docs/screenshots/08-pack.jpg)
+
+The staff side starts with an upload. This page shows what one upload became: the NCPOR Annual Report 2024-25 turned into 11 outputs, with summaries in both languages, a public page, 20 searchable passages cited to their pages, a website article, a press release, posts for four social networks and a lesson with a quiz. Each output shows whether it is live or still waiting, and the audit log at the bottom lists every step and who took it.
+
+### 8. Staff dashboard
+
+![Staff dashboard](docs/screenshots/09-dashboard.jpg)
+
+The dashboard is read live from the database: what is published, what is waiting for review, what has not been checked by a person yet, how many questions people asked each day, what the archive covers by decade, the AI pipeline's recent jobs, and the questions Dhruv could not answer (so staff know what content to add next).
+
+### 9. A QR code on every approved post
+
+![Post check page](docs/screenshots/10-verify.jpg)
+
+When a second staff member approves a post, it gets a QR code and an 8-character code. Staff can download a ready-to-share image with the QR on it. Anyone who scans it lands on this page and sees *Genuine*, with the exact approved text. A draft shows *Not approved*, and an unknown code shows *No match*.
+
+### 10. Hindi everywhere, and on phones
+
+<p>
+  <img src="docs/screenshots/11-hindi.jpg" alt="Home page in Hindi" width="68%">
+  &nbsp;
+  <img src="docs/screenshots/12-mobile.jpg" alt="Ask Dhruv on a phone" width="24%">
+</p>
+
+One click switches the whole site to Hindi: menus, pages, summaries and answers. Every page is designed for phones first.
+
+### Page map
+
+| Page | What's there |
 |---|---|
-| `/` | Live globe with India's stations (Maitri, Bharati, Himadri, Himansh) and their current temperatures, plus a timeline of expeditions from 1981 to today |
-| `/explore` | The whole archive: reports, papers, datasets, photos, videos, activities |
-| `/ask` | Ask Dhruv, with sample questions that always answer instantly |
-| `/expeditions` | Sourced expedition pages with timelines and route maps |
+| `/` | Home, live globe, expedition timeline |
+| `/explore` | The whole archive with search and filters |
+| `/ask` | Ask Dhruv |
+| `/expeditions` | Sourced expedition pages |
+| `/videos`, `/gallery`, `/events`, `/news` | Videos, photos, activities, news and RSS |
 | `/learn` | Lessons, quizzes and certificates |
-| `/accuracy` | The public scorecard for Ask Dhruv |
-| `/verify` | Check a certificate or a post's QR code |
-| `/admin/pack` | Staff view: one upload and everything it became |
+| `/accuracy` | Ask Dhruv's public scorecard |
+| `/verify` | Check a certificate or a post's code |
+| `/admin` | Staff dashboard, upload, review queue, content studio, lessons, insights |
+| `/admin/pack` | One upload and everything it became |
 
 ## How it's built
 
